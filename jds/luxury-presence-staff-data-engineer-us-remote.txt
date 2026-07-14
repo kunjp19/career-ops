@@ -1,0 +1,125 @@
+🍪
+dismiss
+Privacy Notice
+
+This website uses cookies to improve your web experience. By using the site, you agree to the use of cookies.
+
+Staff Data Engineer - US (Remote)
+United StatesEngineering – Engineering /Full-Time /Remote
+	APPLY FOR THIS JOB
+Luxury Presence is building the AI growth platform for real estate. Backed by Bessemer Venture Partners and other top investors, we're a Series C company that has hit $100M in annual recurring revenue. More than 90,000 real estate professionals, including over 30% of the WSJ Real Trends top 100 agents in the United States, use us to run and grow their business.
+
+
+About the Role
+ 
+We’re seeking a Staff Software Engineer to strengthen our real estate MLS data platform squad. You will build robust data pipelines and backend services that power:
+ 
+• High-quality MLS and property data across 400+ feeds
+• Property discovery and search on agent websites
+• Personalized listing recommendations and other data-driven features
+• Conversational and operational AI agents that streamline internal workflows
+• The evaluation and monitoring infrastructure that keeps these systems improving over time
+ 
+This role sits at the intersection of backend engineering, data infrastructure, and AI-powered products.
+ 
+Who is the Data Platform Squad?
+ 
+We make sure clean, reliable MLS listing records and user click-stream data are always available to our products and customers. Our current team—a mix of data engineers and software engineers—owns the entire listing pipeline: ingestion, transformation, and normalization across 400+ MLS feeds and other sources.
+ 
+We also extend the platform to capture user-activity data for user-facing features such as personalized listing recommendations, and we build AI agents that automate feed onboarding and listing-issue triage, reducing manual effort for internal teams and clients and shortening the path from data to business impact.
+ 
+What You’ll Do
+ 
+Technical leadership & architecture
+• Own the end-to-end architecture for MLS and property data: streaming and batch pipelines, microservices, storage layers, and APIs
+• Design and evolve event-driven, Kafka-based data flows that power listing ingestion, enrichment, recommendations, and AI use cases
+• Drive technical design reviews, set engineering best practices, and make high-quality tradeoffs around reliability, performance, and cost
+ 
+ 
+Backend, data & platform engineering
+• Design, build, and operate backend services (Python or Java) that expose listing, property, and recommendation data via robust APIs and microservices
+• Implement scalable data processing with Spark or Flink on EMR (or similar), orchestrated via Airflow and running on Kubernetes where applicable
+• Champion observability (metrics, tracing, logging) and operational excellence (alerting, runbooks, SLOs, on-call participation) for data and backend services
+ 
+ 
+Streaming & batch data pipelines
+• Build and maintain high-volume, schema-evolving streaming and batch pipelines that ingest and normalize MLS and third-party data
+• Ensure data quality, lineage, and governance are built into the platform from the start—supporting analytics, AI/ML, and customer-facing features
+• Partner with analytics engineering and data science to make data discoverable and usable (e.g., semantic layers, documentation, self-service tooling)
+ 
+ 
+AI agents & data products
+• Collaborate with ML/AI engineers to design and scale AI agents that automate MLS feed onboarding, listing discrepancy triage, and other operational workflows
+• Work with frameworks such as PydanticAI, LangChain, or similar to integrate LLM-based agents into our data and service architecture
+• Help define and implement evaluation, logging, and feedback loops so these agents and data-driven products continuously improve
+ 
+ 
+Cross-functional impact & mentorship
+• Collaborate closely with Product, Engineering, and Operations to shape the roadmap for our data platform, MLS capabilities, and AI-powered experiences
+• Translate ambiguous business and customer problems into clear technical strategies and phased delivery plans
+• Mentor and unblock other engineers; elevate the overall level of technical decision-making on the team via pairing, reviews, and design guidance
+ 
+ 
+What You’ll Bring
+ 
+ 
+Experience & scope
+• 10+ years of professional software engineering experience, including owning production systems end-to-end
+• Significant experience working with data-intensive or distributed systems at scale (high volume, high availability)
+• Prior experience in a senior or staff/lead role where you influenced architecture, standards, and technical direction
+ 
+ 
+Core technical skills
+• Strong programming skills in Python or Java, with experience building microservices and APIs (REST/GraphQL)
+Hands-on experience with Apache Kafka or similar event/messaging platforms (Kinesis, Pub/Sub, etc.)
+• Deep experience with:
+  ◦ Spark or Flink for large-scale data processing, across streaming and batch pipelines (on EMR or similar big-data compute)
+  ◦ Airflow (or equivalent orchestration tools)
+  ◦ Kubernetes for running data/compute workloads
+• Strong SQL and data modeling skills; solid understanding of ETL/ELT patterns, data warehousing concepts, and performance tuning
+• Experience building on AWS (preferred) or another major cloud provider, with a good grasp of cost, reliability, and security tradeoffs
+ 
+ 
+AI agent experience
+• Experience building or integrating AI agents into production workflows (e.g., internal tools, support automation, operational triage, or data workflows)
+• Familiarity with frameworks such as PydanticAI, LangGraph, Claude Code or similar, and how they interact with backend services, vector stores, and LLM APIs
+• Comfort working with logs, telemetry, and evaluation metrics to monitor, debug, and iteratively improve AI-driven systems
+ 
+ 
+Leadership & collaboration
+• Demonstrated ability to lead technical initiatives across teams, from idea to production (alignment, design, implementation, rollout)
+• Track record of mentoring other engineers and raising the bar on code quality, testing, and design
+• Strong communication skills; able to clearly explain complex technical decisions to both engineers and non-technical stakeholders
+• Customer and product mindset: you care about how the data and services you build improve the end-user and client experience, not just the internals
+ 
+ 
+Nice to Have
+ 
+• Experience with any of:
+  ◦ Iceberg, Hive, or other table formats/data lake technologies
+  ◦ Snowflake, Athena, Redshift, or other cloud data warehouses
+  ◦ dbt or similar transformation frameworks
+  ◦ Data quality / observability tools (e.g., Great Expectations, Monte Carlo, Datafold)
+  ◦ Vector databases / retrieval (e.g., LanceDB, Pinecone, Elasticsearch/OpenSearch)
+• Background in real estate, marketplaces, or other domains where data quality and freshness are highly visible to customers
+• Prior experience in a startup or high-growth environment where you’ve built or significantly evolved a data platform
+$200,000 - $250,000 a year
+Join us in shaping the future of real estate
+ 
+The real estate industry is in the midst of a seismic shift, and the future belongs to those who break new ground. As one of the fastest-growing companies in the proptech and marketing sectors, Luxury Presence challenges the status quo of what technology can do for real estate agents, leaders, and brokerages.
+ 
+We're a team of agile and tenacious innovators working collaboratively to drive the industry forward. Together, we build game-changing products that empower modern real estate entrepreneurs to dominate their markets. From award-winning web design to agile SEO solutions to cutting-edge AI tools, we deliver tech that anticipates market shifts and keeps our clients ahead of their competition.
+ 
+Founded in 2016 by Stanford Business School alum Malte Kramer, Luxury Presence has grown to a global team ranked on the Inc. 5000 fastest-growing companies list three years in a row. We're backed by world-class investors, including Bessemer Venture Partners, NextEquity Partners, Toba Capital, and Switch Ventures, and have raised $89 million to date.
+ 
+More than 18,000 real estate businesses rely on our platform, including 30% of the Wall Street Journal RealTrends top agents and teams. Additionally, many of the industry's most powerful brokerages rely on Luxury Presence as a trusted business partner.
+ 
+Every year since 2020, Luxury Presence has ranked on BuiltIn's Best Place to Work lists. HousingWire named our founder and CEO a 2024 Tech Trendsetter, we've received several Tech100 Awards, and we just scored an Inman Innovation Award for Best AI-Powered Platform.
+ 
+Luxury Presence is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, or national origin.
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Luxury Presence Home Page
+
+Jobs powered by

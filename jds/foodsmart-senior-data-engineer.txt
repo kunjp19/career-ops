@@ -1,0 +1,75 @@
+Senior Data Engineer
+Remote (US)Engineering /Full-Time /Remote
+	APPLY FOR THIS JOB
+| About us:
+
+Foodsmart is the leading Foodcare platform in the U.S., built to deliver nutrition-driven healthcare at scale. Powered by a national network of Registered Dietitians, Foodsmart combines personalized clinical nutrition care, behavior change tools, and food benefits to improve member health outcomes while lowering healthcare costs.
+
+Our platform is designed to foster healthier food choices, drive lasting behavior change, and deliver sustainable health outcomes. Through our highly personalized, digital platform, we guide more than 3 million members—including those in employer-sponsored health plans, regional and national Medicaid managed care organizations, Medicare Advantage plans, and commercial insurers—on a tailored journey to eating well while saving time and money.
+
+Foodsmart seamlessly integrates dietary assessments and nutrition counseling with online food ordering and cost-effective meal planning for the entire family, optimizing ingredients both at home and on the go. We partner with national and regional retailers across the U.S., many of whom accept SNAP/EBT, making healthier food more accessible. Additionally, we assist members with SNAP enrollment and management, providing tangible access to nutritious food. In 2024, Foodsmart secured a $200 million investment from TPG’s Rise Fund, which supports entrepreneurs dedicated to achieving the United Nations’ Sustainable Development Goals. This investment helps us expand our reach, particularly to low-income workers who are disproportionately affected by diet-related diseases. 
+
+At Foodsmart, our mission is to make nutritious food accessible and affordable for everyone, regardless of economic status. We are committed to a set of core values that shape our culture and work environment:
+ 
+👥 Customer First - You start with the member and work backwards.
+🚀 Make It Happen - You act with urgency, use data, and hold high standards.
+🤝 One Team - You collaborate with respect and commit as a group.
+ 
+Whether you're a dietitian, a commercial leader, or a technologist, working at Foodsmart means being part of a team that is passionate, supportive, and driven by a shared purpose. Join us in transforming the way people access and enjoy healthy food.
+ 
+Learn more at www.foodsmart.com
+ 
+| About the role:
+The Senior Data Engineering is a critical role  responsible for constructing and optimizing our data pipeline architecture, collaborating closely with data scientists and analysts to facilitate data-related functionalities. The Senior Data Engineer will be pivotal in designing, building, and maintaining highly scalable data pipelines, optimizing data delivery, and automating data processes. They will work closely with cross-functional teams to ensure efficient data flow and contribute to the success of our data-driven initiatives. 
+ 
+You will
+Lead the optimization and scalability of data delivery pipelines, ensuring performance and reliability for cross-functional stakeholders.
+Architect, build, and maintain robust, high-throughput data pipelines and infrastructure to support advanced analytics and machine learning.
+Partner with data architects, data scientists, and analysts to design solutions that meet evolving data requirements and business objectives.
+Establish best practices for data quality, governance, security, and compliance; implement automated frameworks for cleaning, validation, correction, and enrichment.
+Drive continuous improvement in data engineering processes by identifying bottlenecks, reducing manual effort through automation, and advancing scalability standards.
+Mentor junior engineers, provide technical guidance, and influence broader data platform strategy.
+You are
+A proactive leader who drives efficient data delivery, infrastructure evolution, and technical excellence.
+Quality-oriented, with a strong sense of ownership over data reliability and accessibility.
+Experienced in applying secure, compliant data handling practices in regulated environments.
+Collaborative and skilled at bridging business needs with technical solutions, supporting stakeholders at all levels.
+An expert in data warehouse architecture, dimensional modeling, and automated data engineering at scale.
+You have
+6+ years of professional experience in data engineering, with a proven track record of leading large-scale, complex projects.
+Deep expertise in modern cloud data warehouses (Snowflake, Redshift, or BigQuery).
+Advanced SQL skills and strong experience with relational and columnar database systems.
+Proficiency in data pipeline/workflow orchestration tools (e.g., Apache Airflow, Dagster, Luigi).
+Solid programming background (Python, Scala, or Java) for data processing and automation.
+Experience in backend development, with strong proficiency in TypeScript, Java, Python, Node.js, and SQL-based RDBMS such as PostgreSQL or MySQL
+Experience designing data models and schemas for both operational and analytical use cases.
+Strong analytical and problem-solving skills, thriving in fast-paced, high-growth environments.
+Familiarity with healthcare data standards (FHIR, HL7) or other regulated data domains is a plus.
+Experience in backend development, with strong proficiency in TypeScript, Java, Python, Node.js, and SQL-based RDBMS such as PostgreSQL or MySQL
+Bachelor’s degree in Computer Science, Engineering, Mathematics, or a related field (Master’s degree preferred).
+$150,000 - $200,000 a year
+
+Role: Senior Data Engineer
+Location: Remote
+Base Salary Range: $150,000/yr to $200,000/yr + bonus + benefits
+
+Our salary ranges are determined by role, level, and location. The range displayed on each job posting reflects the minimum and maximum target for new hire salaries at our headquarters in San Francisco, California. Individual pay is determined by work location, job-related skills, experience, and relevant education or training.
+
+About our benefits and perks:
+
+Remote-First Company
+Unlimited PTO
+Flexible & remote location
+Healthcare Coverage (Medical, Dental, Vision)
+401k & bonus
+Registered Dietitian Services
+
+
+Foodsmart  is an equal opportunity employer and values diversity. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, disability status, or any other protected class.
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Foodsmart Home Page
+
+Jobs powered by

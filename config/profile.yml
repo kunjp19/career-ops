@@ -84,6 +84,10 @@ location:
 cv:
   output_format: "html"
 
+# Generate tailored PDFs automatically only for strong matches.
+# Lower-scoring roles still get reports and tracker entries.
+auto_pdf_score_threshold: 4.3
+
 automation:
   discovery_sources:
     - "company career pages"
