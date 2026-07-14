@@ -1,0 +1,125 @@
+# Career-Ops Profile Configuration
+# User-layer file: safe from system updates.
+
+candidate:
+  full_name: "Kunjkumar Patel"
+  first_name: "Kunjkumar"
+  last_name: "Patel"
+  email: "kunjp19@gmail.com"
+  phone: "(234) 718-1833"
+  location: "Canton, MI"
+  city: "Canton"
+  state: "MI"
+  country: "United States"
+  linkedin: "https://linkedin.com/in/kunjp19"
+  github: "https://github.com/kunjp19"
+  website: "https://kunjp19.github.io"
+  work_authorization: "Authorized to work in the United States"
+  salary_expectation: "Market-aligned for senior backend, cloud, platform, or data engineering roles; confirm target range with Kunjkumar before quoting a number."
+  cover_letter: "I bring 5+ years of software engineering experience across Java/Spring Boot microservices, data pipelines, cloud deployments, and production-grade backend systems. I am excited to help teams build reliable services, automate delivery, and improve engineering quality."
+
+target_roles:
+  primary:
+    - "Senior Software Engineer"
+    - "Backend Engineer"
+    - "Java Spring Boot Engineer"
+    - "Cloud Backend Engineer"
+    - "Data Pipeline Engineer"
+    - "Platform Engineer"
+  archetypes:
+    - name: "Senior Backend Engineer"
+      level: "Senior"
+      fit: "primary"
+    - name: "Java / Spring Boot Engineer"
+      level: "Senior"
+      fit: "primary"
+    - name: "Cloud Backend Engineer"
+      level: "Senior"
+      fit: "primary"
+    - name: "Data Pipeline Engineer"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Platform Engineer"
+      level: "Mid-Senior"
+      fit: "secondary"
+    - name: "Full-Stack Engineer"
+      level: "Mid-Senior"
+      fit: "secondary"
+    - name: "Applied AI / Backend Engineer"
+      level: "Mid-Senior"
+      fit: "adjacent"
+
+narrative:
+  headline: "Senior Software Engineer - Java, Spring Boot, Cloud, and Data Pipelines"
+  exit_story: "Kunjkumar is moving toward roles where backend engineering, distributed systems, data workflows, and cloud automation are central to the product or platform."
+  superpowers:
+    - "Event-driven Java/Spring Boot microservices with JMS, Apache Artemis, ActiveMQ, and enterprise integration patterns"
+    - "Cloud-native delivery with AWS, OpenShift, Docker, Jenkins, and CI/CD automation"
+    - "Data workflow, KPI/reporting, SQL tuning, schema design, and analytics infrastructure experience"
+    - "Production debugging, observability, code review, mentoring, and engineering standards"
+    - "Full-stack delivery when needed, including React.js and accessible UI migration work"
+  proof_points:
+    - name: "Event-driven microservices at NTT DATA"
+      hero_metric: "Designed Java/Spring Boot services using JMS, Apache Artemis, ActiveMQ, and enterprise integration patterns"
+    - name: "AI-driven COVID-19 risk assessment research"
+      hero_metric: "Built system with 85% accuracy for crowd density, mask usage, and fever detection analysis"
+    - name: "Android model deployment efficiency"
+      hero_metric: "Improved model deployment efficiency by 7% using Firebase, Java, Python, and Flask"
+    - name: "Dental Practice Optimizer modernization"
+      hero_metric: "Improved KPIs, reporting, API integration, and React accessibility/WCAG compliance"
+
+compensation:
+  target_range: "Confirm with Kunjkumar"
+  currency: "USD"
+  minimum: "Confirm with Kunjkumar before applying or negotiating"
+  location_flexibility: "Remote preferred; open to Detroit metro, Ann Arbor, or hybrid roles near Canton, MI when the role is a strong engineering fit."
+
+location:
+  country: "United States"
+  city: "Canton"
+  timezone: "America/Detroit"
+  visa_status: "No sponsorship requirement stated; confirm before applications that ask detailed authorization questions."
+  onsite_availability: "Remote preferred; available for selective local/hybrid roles around Detroit metro or Ann Arbor."
+
+cv:
+  output_format: "html"
+
+automation:
+  discovery_sources:
+    - "company career pages"
+    - "LinkedIn"
+    - "Indeed"
+    - "Wellfound"
+    - "Built In"
+    - "Greenhouse"
+    - "Ashby"
+    - "Lever"
+  minimum_apply_score: 4.0
+  auto_prepare_resume: true
+  auto_prefill_forms: false
+  never_submit_without_review: true
+  preferred_keywords:
+    - "senior software engineer"
+    - "backend engineer"
+    - "java engineer"
+    - "spring boot"
+    - "microservices"
+    - "distributed systems"
+    - "event-driven"
+    - "data pipeline"
+    - "platform engineer"
+    - "cloud engineer"
+    - "aws"
+    - "openshift"
+    - "jenkins"
+    - "react"
+    - "full-stack engineer"
+  avoid_keywords:
+    - "unpaid"
+    - "intern"
+    - "new grad"
+    - "sales"
+    - "recruiter"
+    - "commission only"
+    - "desktop support"
+    - "help desk"

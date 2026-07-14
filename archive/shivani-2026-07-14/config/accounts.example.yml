@@ -1,0 +1,10 @@
+# Optional credentials for application portals.
+# Copy this file to config/accounts.yml and fill in account details for sites
+# where you want the pipeline to detect login/apply state.
+
+accounts:
+  example.com:
+    email: "your-email@example.com"
+    password: "YourSecurePassword123!"
+    first_name: "Shivani"
+    last_name: "Patel"

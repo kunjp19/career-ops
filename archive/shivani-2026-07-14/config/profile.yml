@@ -1,0 +1,140 @@
+# Career-Ops Profile Configuration
+# Copy this file to config/profile.yml and fill in your details.
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Shivani Patel"
+  first_name: "Shivani"
+  last_name: "Patel"
+  email: "shivanip064@gmail.com"
+  phone: "+1 570-604-4594"
+  location: "Canton, MI"
+  address: "637 Cherry Orchard Rd"
+  city: "Canton"
+  state: "MI"
+  zip_code: "48188"
+  country: "United States"
+  linkedin: ""  # Add your LinkedIn URL
+  website: ""  # Add your portfolio/website URL
+  work_authorization: "Yes, I am authorized to work in the United States"
+  salary_expectation: "$50,000-$60,000 annually, depending on schedule, benefits, and healthcare office or patient services setting"
+  cover_letter: "I bring 5+ years of healthcare support experience across adult day care operations, client enrollment, family communication, documentation, and in-home care. I would be glad to bring that same patience, accuracy, and dependability to your team."
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Medical Coordinator"
+    - "Patient Care Coordinator"
+    - "Patient Services Coordinator"
+    - "Patient Access Representative"
+    - "Referral Coordinator"
+    - "Medical Office Coordinator"
+    - "Client Service Coordinator"
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "Medical Coordinator"
+      level: "Mid"
+      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
+    - name: "Patient Care Coordinator"
+      level: "Mid"
+      fit: "primary"
+    - name: "Patient Services Coordinator"
+      level: "Mid"
+      fit: "primary"
+    - name: "Patient Access Representative"
+      level: "Mid"
+      fit: "primary"
+    - name: "Medical Office Coordinator"
+      level: "Mid"
+      fit: "primary"
+    - name: "Client Service Coordinator"
+      level: "Mid"
+      fit: "secondary"
+    - name: "Adult Day Program Coordinator"
+      level: "Mid"
+      fit: "secondary"
+    - name: "Home Health Aide"
+      level: "Entry-Mid"
+      fit: "adjacent"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "Medical Coordinator and Patient Services Professional"
+  # Your exit story — what makes you unique
+  exit_story: "I am very sweet in nature. Can work with different clients in healthcare space with so much patience."
+  # Your top 3-5 superpowers
+  superpowers:
+    - "Calm, patient family and client communication"
+    - "Accurate healthcare documentation and intake coordination"
+    - "Medication support, vital sign monitoring, and wellness follow-up"
+    - "Bilingual support in English, Gujarati, and Hindi"
+    - "Front-desk and daily operations ownership in senior care settings"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "Client Enrollment Growth at Shantiniketan Adult Day Care"
+      hero_metric: "Increased participants from 30 to over 130"
+    - name: "Reliable In-Home Elder Care Support"
+      hero_metric: "Provided long-term care support, safety checks, documentation, and condition reporting for elderly clients"
+  # Optional: dashboard/demo URL with credentials
+  # dashboard:
+  #   url: "https://janesmith.dev/demo"
+  #   password: "demo-2026"
+
+compensation:
+  target_range: "$50,000-$60,000"     # Your target total comp
+  currency: "USD"
+  minimum: "$45,000 or role-appropriate hourly equivalent"               # Walk-away number
+  location_flexibility: "Detroit metro or remote. Prefer Canton/Livonia/Westland/Ann Arbor/Novi/Farmington Hills/Dearborn/Southfield area; avoid long northern Michigan or out-of-state in-person commutes."
+
+location:
+  country: "United States"
+  city: "Canton"
+  timezone: "EST"
+  visa_status: "No sponsorship needed"
+  onsite_availability: "Available for local Detroit metro on-site or hybrid roles; remote preferred for phone-based coordination, scheduling, intake, or patient services."
+  # For remote roles outside your country:
+  # onsite_availability: "1 week/month in any city"
+
+cv:
+  output_format: "html" # "html" (default) or "latex"
+  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
+  # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
+  # The ID starts with "D" and is 11 characters long.
+  # canva_resume_design_id: "DAxxxxxxxxx"
+
+automation:
+  discovery_sources:
+    - "company career pages"
+    - "Indeed"
+    - "LinkedIn"
+    - "Glassdoor"
+    - "ZipRecruiter"
+  minimum_apply_score: 4.0
+  auto_prepare_resume: true
+  auto_prefill_forms: false
+  never_submit_without_review: true
+  preferred_keywords:
+    - "medical coordinator"
+    - "medical office coordinator"
+    - "patient care coordinator"
+    - "patient services coordinator"
+    - "patient access representative"
+    - "patient service representative"
+    - "intake coordinator"
+    - "referral coordinator"
+    - "medical receptionist"
+    - "health unit coordinator"
+    - "client service coordinator"
+    - "care coordinator"
+    - "adult day care"
+    - "home health aide"
+    - "home care aide"
+  avoid_keywords:
+    - "RN"
+    - "LPN"
+    - "CNA required"
+    - "registered nurse"
+    - "licensed practical nurse"
+    - "medical assistant certification required"
+    - "commission only"
+    - "overnight only"

@@ -1,0 +1,36 @@
+# Reusable application answers for Kunjkumar Patel.
+
+identity:
+  full_name: "Kunjkumar Patel"
+  email: "kunjp19@gmail.com"
+  phone: "(234) 718-1833"
+  location: "Canton, MI"
+  linkedin: "https://linkedin.com/in/kunjp19"
+  github: "https://github.com/kunjp19"
+  website: "https://kunjp19.github.io"
+
+work_preferences:
+  preferred_workplace: "Remote preferred; open to selective hybrid roles around Detroit metro or Ann Arbor."
+  target_roles:
+    - "Senior Software Engineer"
+    - "Backend Engineer"
+    - "Java / Spring Boot Engineer"
+    - "Cloud Backend Engineer"
+    - "Data Pipeline Engineer"
+    - "Platform Engineer"
+  technologies:
+    - "Java"
+    - "Spring Boot"
+    - "Python"
+    - "AWS"
+    - "OpenShift"
+    - "Jenkins"
+    - "Docker"
+    - "React.js"
+    - "Oracle"
+    - "MongoDB"
+
+notes:
+  - "Confirm exact work authorization wording before applications that ask detailed visa/sponsorship questions."
+  - "Confirm salary target range before quoting compensation."
+  - "Never submit an application without Kunjkumar's review."

@@ -1,0 +1,39 @@
+# Reusable application answers for Shivani Patel.
+# Store non-sensitive, user-approved answers here so future forms get faster.
+# Do not store passwords, OTPs, SSNs, full street address, or other secrets.
+
+identity:
+  full_name: "Shivani Patel"
+  email: "shivanip064@gmail.com"
+  phone: "+1 570-604-4594"
+  address_line_1: "637 Cherry Orchard Rd"
+  city: "Canton"
+  state: "MI"
+  zip_code: "48188"
+  country: "United States"
+
+work_authorization:
+  authorized_us: "Yes"
+  sponsorship_required: "No"
+
+healthcare_qualifications:
+  cna_license: "No"
+  certified_home_health_aide: "No"
+  medication_administration_certified: "Yes"
+  in_home_healthcare_experience: "Yes"
+  high_school_diploma_or_ged: "Yes"
+  bachelor_degree: "Yes"
+  can_pass_drug_screen: "Unknown"
+
+preferences:
+  salary_expectation: "$50,000-$60,000 annually, depending on schedule, benefits, and care setting"
+  preferred_location: "Detroit metro or remote; Canton/Livonia/Westland/Ann Arbor/Novi/Farmington Hills/Dearborn/Southfield preferred"
+  avoid_location_note: "Avoid long northern Michigan or out-of-state in-person commutes unless explicitly approved."
+  can_commute_to_troy_mi_48084: "Yes"
+  can_begin_employment_within_next_month: "Yes"
+  weekend_saturday_sunday_consistent_availability: "Yes"
+
+source_notes:
+  - "CNA and Certified Home Health Aide are set to No because Shivani's CV lists Medication Administration Certified, not CNA/HHA certification."
+  - "Can pass drug screen is Unknown until Shivani confirms."
+  - "User confirmed all yes for DirectRx: reliable commute to Troy, MI 48084; able to begin employment in the next month; available both Saturdays and Sundays consistently."
