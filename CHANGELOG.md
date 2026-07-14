@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.20.1](https://github.com/santifer/career-ops/compare/career-ops-v1.20.0...career-ops-v1.20.1) (2026-07-14)
+
+
+### Bug Fixes
+
+* **onboarding:** relay the manifesto note in agent-mediated updates ([0a3abed](https://github.com/santifer/career-ops/commit/0a3abeddfa66ceb2f3e63f5f951fbbcb85481a4b))
+
 ## [1.20.0](https://github.com/santifer/career-ops/compare/career-ops-v1.19.0...career-ops-v1.20.0) (2026-07-14)
 
 
