@@ -1,0 +1,158 @@
+title_filter:
+  positive:
+    - Senior Software Engineer
+    - Software Engineer
+    - Backend Engineer
+    - Back End Engineer
+    - Java Engineer
+    - Spring Boot
+    - Microservices
+    - Distributed Systems
+    - Cloud Engineer
+    - Cloud Backend
+    - Platform Engineer
+    - Data Engineer
+    - Data Pipeline
+    - API Engineer
+    - Integration Engineer
+    - Full Stack Engineer
+    - Full-Stack Engineer
+    - Applied AI Engineer
+    - AI Engineer
+  negative:
+    - Intern
+    - Internship
+    - New Grad
+    - Entry Level
+    - Help Desk
+    - Desktop Support
+    - Technical Support
+    - QA Tester
+    - Manual QA
+    - Sales
+    - Account Executive
+    - Recruiter
+    - Salesforce Admin
+    - WordPress
+    - PHP
+    - Mobile only
+    - iOS
+    - Android
+    - Blockchain
+    - Web3
+    - Crypto
+    - Commission
+  seniority_boost:
+    - Senior
+    - Lead
+    - Staff
+    - Principal
+
+search_queries:
+  - name: LinkedIn - Senior Backend Java Remote
+    query: 'site:linkedin.com/jobs "Senior Backend Engineer" Java Spring Boot remote'
+    enabled: true
+  - name: LinkedIn - Detroit Java Spring
+    query: 'site:linkedin.com/jobs "Java" "Spring Boot" "Detroit" OR "Ann Arbor"'
+    enabled: true
+  - name: Indeed - Backend Engineer Michigan
+    query: 'site:indeed.com "Backend Engineer" Java "Michigan" OR remote'
+    enabled: false
+  - name: Greenhouse - Backend Java
+    query: 'site:job-boards.greenhouse.io OR site:boards.greenhouse.io "Backend Engineer" "Java" "Spring Boot" remote'
+    enabled: true
+  - name: Ashby - Platform Backend
+    query: 'site:jobs.ashbyhq.com "Platform Engineer" OR "Backend Engineer" Java OR AWS remote'
+    enabled: true
+  - name: Lever - Data Pipeline Engineer
+    query: 'site:jobs.lever.co "Data Pipeline Engineer" OR "Backend Data Engineer" remote'
+    enabled: true
+  - name: Built In - Detroit Backend
+    query: 'site:builtin.com/jobs "Backend Engineer" "Detroit" OR "Remote" "Java"'
+    enabled: true
+  - name: Wellfound - Backend Platform
+    query: 'site:wellfound.com/jobs "Backend Engineer" OR "Platform Engineer" Java AWS remote'
+    enabled: true
+  - name: Applied AI Backend
+    query: '"Applied AI Engineer" OR "AI Backend Engineer" Java OR Python remote site:jobs.ashbyhq.com OR site:job-boards.greenhouse.io'
+    enabled: true
+
+tracked_companies:
+  - name: NTT DATA
+    careers_url: https://www.nttdata.com/global/en/careers
+    scan_method: websearch
+    scan_query: 'site:nttdata.com "Senior Software Engineer" OR "Java" OR "Spring Boot"'
+    notes: Current-domain experience; evaluate carefully for advancement and team fit.
+    enabled: true
+  - name: Rocket Companies
+    careers_url: https://www.myrocketcareer.com/
+    scan_method: websearch
+    scan_query: 'site:myrocketcareer.com "Software Engineer" OR "Java" OR "Backend"'
+    notes: Detroit tech employer; check backend/platform roles.
+    enabled: true
+  - name: Ford
+    careers_url: https://corporate.ford.com/careers.html
+    scan_method: websearch
+    scan_query: 'site:efds.fa.em5.oraclecloud.com OR site:ford.com/careers "Software Engineer" "Java" OR "Cloud"'
+    notes: Michigan anchor employer; prioritize software/platform roles over embedded-only roles.
+    enabled: true
+  - name: General Motors
+    careers_url: https://search-careers.gm.com/en/jobs/
+    scan_method: websearch
+    scan_query: 'site:search-careers.gm.com "Software Engineer" OR "Backend" OR "Cloud"'
+    notes: Michigan anchor employer; check remote/hybrid engineering roles.
+    enabled: true
+  - name: United Wholesale Mortgage
+    careers_url: https://www.uwmcareers.com/
+    scan_method: websearch
+    scan_query: 'site:uwmcareers.com "Software Developer" OR "Software Engineer" OR "Java"'
+    notes: Local metro Detroit technology roles; confirm onsite expectations.
+    enabled: true
+  - name: Duo Security / Cisco
+    careers_url: https://www.cisco.com/c/en/us/about/careers.html
+    scan_method: websearch
+    scan_query: 'site:cisco.com/c/en/us/about/careers "Software Engineer" "Ann Arbor" OR remote'
+    notes: Ann Arbor security engineering; strong backend/platform potential.
+    enabled: true
+  - name: StockX
+    careers_url: https://stockx.com/careers
+    scan_method: websearch
+    scan_query: 'site:stockx.com/careers "Backend" OR "Software Engineer" OR "Platform"'
+    notes: Detroit marketplace tech; check backend/platform openings.
+    enabled: true
+  - name: S&P Global
+    careers_url: https://www.spglobal.com/en/careers
+    scan_method: websearch
+    scan_query: 'site:spglobal.com/en/careers "Java" OR "Backend" OR "Data Engineer"'
+    notes: Data-heavy engineering roles; strong fit when backend/data pipelines are central.
+    enabled: true
+  - name: Capital One
+    careers_url: https://www.capitalonecareers.com/
+    scan_method: websearch
+    scan_query: 'site:capitalonecareers.com "Senior Software Engineer" "Java" OR "AWS"'
+    notes: Strong Java/AWS backend lane; confirm remote or local availability.
+    enabled: true
+  - name: JPMorgan Chase
+    careers_url: https://careers.jpmorgan.com/us/en/students/campaign/technology
+    scan_method: websearch
+    scan_query: 'site:jpmorganchase.com OR site:careers.jpmorgan.com "Software Engineer" "Java" "Columbus" OR remote'
+    notes: Financial tech roles; good for Java/backend and enterprise scale.
+    enabled: true
+  - name: OpenAI
+    careers_url: https://openai.com/careers
+    scan_method: websearch
+    scan_query: 'site:openai.com/careers "Backend" OR "Platform" OR "Applied AI" OR "Engineer"'
+    notes: Stretch lane for applied AI/backend/platform roles.
+    enabled: false
+  - name: Databricks
+    careers_url: https://www.databricks.com/company/careers
+    scan_method: websearch
+    scan_query: 'site:databricks.com/company/careers "Backend" OR "Data Engineer" OR "Platform Engineer"'
+    notes: Stretch data/platform lane.
+    enabled: false
+  - name: Snowflake
+    careers_url: https://careers.snowflake.com/
+    scan_method: websearch
+    scan_query: 'site:careers.snowflake.com "Backend" OR "Platform" OR "Data Engineer"'
+    notes: Stretch data platform lane.
+    enabled: false

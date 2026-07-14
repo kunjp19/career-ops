@@ -1,26 +1,15 @@
-# Story Bank — Master STAR+R Stories
+# Story Bank
 
-This file accumulates your best interview stories over time. Each evaluation (Block F) adds new stories here. Instead of memorizing 100 answers, maintain 5-10 deep stories that you can bend to answer almost any behavioral question.
+## NTT DATA - Senior Backend Ownership
 
-## How it works
+- Situation: Enterprise systems needed reliable event-driven services and maintainable delivery practices.
+- Task: Design microservices, improve deployment workflows, promote testing/coding standards, and support production reliability.
+- Action: Built Java/Spring Boot services with JMS, Apache Artemis, ActiveMQ, and integration patterns; automated deployments with OpenShift/Jenkins; led reviews and mentoring.
+- Result: Stronger operational reliability, improved maintainability, and better cross-application problem solving.
 
-1. Every time `/career-ops oferta` generates Block F (Interview Plan), new STAR+R stories get appended here
-2. Before your next interview, review this file — your stories are already organized by theme
-3. The "Big Three" questions can be answered with stories from this bank:
-   - "Tell me about yourself" → combine 2-3 stories into a narrative
-   - "Tell me about your most impactful project" → pick your highest-impact story
-   - "Tell me about a conflict you resolved" → find a story with a Reflection
+## CSUEB iLab - AI Risk Assessment
 
-## Stories
-
-<!-- Stories will be added here as you evaluate offers -->
-<!-- Format:
-### [Theme] Story Title
-**Source:** Report #NNN — Company — Role
-**S (Situation):** ...
-**T (Task):** ...
-**A (Action):** ...
-**R (Result):** ...
-**Reflection:** What I learned / what I'd do differently
-**Best for questions about:** [list of question types this story answers]
--->
+- Situation: COVID-19 safety workflows needed automated assessment signals.
+- Task: Build an AI-driven system for crowd density, mask usage, and fever detection analysis.
+- Action: Developed backend architecture and deployment workflow using Firebase, Java, Python, and Flask.
+- Result: Achieved 85% assessment accuracy and improved Android model deployment efficiency by 7%.
