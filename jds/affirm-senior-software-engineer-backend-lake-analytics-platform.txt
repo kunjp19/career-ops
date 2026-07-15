@@ -1,0 +1,58 @@
+Senior Software Engineer, Backend (Lake Analytics Platform) 
+
+Affirm
+
+Remote US
+
+External Department: Engineering
+PERM Job?: false
+
+<div class="content-intro"><p>Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.</p></div><p>The Data and Storage Services team is responsible for Affirm's data infrastructure across OLTP and OLAP systems, spanning critical online checkout databases, batch orchestration, streaming infrastructure, event-driven frameworks, BI, analytics tooling, large-scale data platforms, and agentic data tools such as semantic layers and internal platform data applications. Our mission is to provide trustworthy, intuitive, and cost-efficient solutions for Affirmers to secure, store, analyze, and transform data at exceptional scale.</p>
+<p>This role focuses on the platform and applications layer of Affirm's data infrastructure — building, operating, and extending systems that enable teams across Affirm to work with data at scale. You will be a core contributor to platform reliability, self-service capabilities, and the roadmap toward agentic data tooling and semantic layer infrastructure.</p>
+<h2><strong>What You'll Do</strong></h2>
+<ul>
+<li><strong>Build and operate core platform capabilities:</strong> Design and implement platform features that enable engineers across Affirm to build, deploy, and operate data applications at scale — covering automated provisioning, deploy pipelines, access control, service lifecycle management, and reliability tooling.</li>
+<li><strong>Develop integrations:</strong> Build and maintain integrations between the platform and internal systems — CI/CD pipelines, identity and secrets management, external APIs, and event-driven hooks — so that application teams have secure, reliable, and self-service access to the tools they need.</li>
+<li><strong>Strengthen data access and governance:</strong> Design and operate secure data access patterns across the platform's analytical infrastructure, including RBAC, managed-access schemas, dynamic data masking, secure views, and cross-database grants that make platform data trustworthy without creating operational bottlenecks.</li>
+<li><strong>Automate toil and unlock self-service:</strong> Identify recurring support patterns — access provisioning, data pipeline failures, service health management, secrets management — and build the automation and tooling to make them self-service for platform users, eliminating manual admin work.</li>
+<li><strong>Improve observability and incident response:</strong> Build telemetry, alerting, and log infrastructure so platform teams and application owners can diagnose and resolve issues independently. Establish runbooks and operational patterns that reduce blast radius and recovery time.</li>
+<li><strong>Support platform operations:</strong> Participate in on-call coverage, triage production incidents across platform services and the applications that run on them, and execute platform-level maintenance with care for the engineers and workflows that depend on the platform.</li>
+<li><strong>Contribute to the emerging platform roadmap:</strong> Help design and build next-generation platform capabilities — semantic layer infrastructure, agentic application patterns, and AI-native data tooling — as the platform grows to support Affirm's most ambitious data use cases.</li>
+<li><strong>Raise the engineering bar:</strong> Set and hold high standards in code review, design, operational readiness, and incident follow-through. Help establish patterns that other contributors can follow and build on.</li>
+</ul>
+<h2><strong>What We Look For</strong></h2>
+<ul>
+<li><strong>Analytical Data Platform Depth:</strong> Hands-on experience operating a cloud analytical data platform (e.g., Snowflake, Databricks, BigQuery, or similar), including access control design, data masking and governance, compute management, and cost optimization. You're comfortable operating with elevated privileges and understand the governance and blast-radius implications of each action.</li>
+<li><strong>Container and Deployment Expertise:</strong> Experience building and operating containerized applications — Docker image management, CI/CD pipeline design (Buildkite, GitHub Actions, or similar), deployment automation, and rollout practices for production services.</li>
+<li><strong>Platform and Developer Tooling:</strong> Experience building internal platforms, developer tooling, or self-service infrastructure that makes other engineers more productive. You design for the developer experience end-to-end, not just the happy path.</li>
+<li><strong>Integrations and Networking:</strong> Comfort building integrations between systems — REST APIs, OAuth/OIDC, webhook ingestion, secrets management, egress networking configuration, and identity/SSO patterns in a managed cloud environment.</li>
+<li><strong>Backend Engineering Fundamentals:</strong> Proficiency in Python and SQL for building reliable, maintainable platform services. You write code that your teammates can own, not just code that works today.</li>
+<li><strong>Operational Ownership:</strong> Strong operational instincts — you instrument your systems, write runbooks, own your alerts, and treat on-call burden as a design constraint from day one. You close the loop on incidents with root cause analysis and durable fixes.</li>
+<li><strong>Agentic and AI-Ready Data Tools:</strong> Familiarity with or interest in semantic layer design, LLM-integrated platform workflows, and agentic data tools. Curiosity about where data infrastructure and AI tooling intersect matters here.</li>
+<li><strong>Communication and Collaboration:</strong> Strong written and verbal communication. You're effective working across application teams, security, infrastructure, and platform users to scope, prioritize, and deliver — especially when requirements are ambiguous.</li>
+<li>This position requires either equivalent practical experience or a Bachelor's degree in a related field.</li>
+</ul>
+<div>
+<div>
+<div>&nbsp;</div>
+</div>
+<div>
+<p>Pay Grade - N<br>Equity Grade - 9<br><br><strong>Employees new to Affirm typically come in at the start of the pay range.&nbsp;</strong>Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.<br><br>Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.)<br><br></p>
+<p>USA base pay range (CA, WA, NY, NJ, CT) per year: $<span data-formula-id="_c_f_4zYZFddFQ5_0" data-error="false" data-placeholder="false" data-loading="false" data-recalculating="false" data-inactive="false">195,000</span>&nbsp;-&nbsp;<span data-formula-id="_c_f_4zYZFddFQ5_1" data-error="false" data-placeholder="false" data-loading="false" data-recalculating="false" data-inactive="false">255,000</span></p>
+<p>USA base pay range (all other U.S. states) per year: $173,000-233,000<br><br>#LI-Remote</p>
+</div>
+</div><div class="content-conclusion"><div>
+<p>Affirm is proud to be a remote-first company! The majority of our roles are remote and you can work almost anywhere within the country of employment. Affirmers in proximal roles have the flexibility to work remotely, but will occasionally be required to work out of their assigned Affirm office. A limited number of roles remain office-based due to the nature of their job responsibilities.</p>
+<p><span style="font-weight: 400;">We’re extremely proud to offer competitive benefits that are anchored to our core value of people come first. Some key highlights of our benefits package include:&nbsp;</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Health care coverage - Affirm covers all premiums for all levels of coverage for you and your dependents&nbsp;</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Flexible Spending Wallets - generous stipends for spending on Technology, Food, various Lifestyle needs, and family forming expenses</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Time off - competitive vacation and holiday schedules allowing you to take time off to rest and recharge</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">ESPP - An employee stock purchase plan enabling you to buy shares of Affirm at a discount</span></li>
+</ul>
+<p><span style="font-weight: 400;">We believe It’s On Us to provide an inclusive interview experience for all, including people with disabilities. We are happy to provide reasonable accommodations to candidates in need of individualized support during the hiring process.</span></p>
+<p class="p1">[For U.S. positions that could be performed in Los Angeles or San Francisco] Pursuant to the San Francisco Fair Chance Ordinance and Los Angeles Fair Chance Initiative for Hiring Ordinance, Affirm will consider for employment qualified applicants with arrest and conviction records.</p>
+</div>
+<div>
+<p>By clicking "Submit Application," you acknowledge that you have read Affirm's&nbsp;<a href="https://www.affirm.com/global-candidate-privacy-notice" target="_blank">Global Candidate Privacy Notice</a>&nbsp;and hereby freely and unambiguously give informed consent to the collection, processing, use, and storage of your personal information as described therein.</p>
+</div></div>

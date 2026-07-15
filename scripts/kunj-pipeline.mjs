@@ -7,10 +7,10 @@
  * - verifies source sync
  * - optionally runs the zero-token scanner
  * - processes pending URLs in data/pipeline.md
- * - extracts JDs with Playwright
+ * - extracts JDs from local cache or ATS APIs before using Playwright fallback
  * - scores/routes against Kunj's profile
  * - writes report + tracker TSV
- * - generates a tailored PDF only above auto_pdf_score_threshold
+ * - generates tailored PDFs only when enabled and above auto_pdf_score_threshold
  * - merges tracker additions and verifies pipeline health
  *
  * It never submits applications.
@@ -31,11 +31,16 @@ const REPORTS_DIR = 'reports';
 const OUTPUT_DIR = 'output';
 const JDS_DIR = 'jds';
 const TRACKER_ADDITIONS_DIR = 'batch/tracker-additions';
+const KNOWLEDGE_BASE_PATH = 'data/job-knowledge-base.jsonl';
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
 const skipScan = args.includes('--skip-scan');
 const verifyScan = args.includes('--verify-scan');
+const forcePdf = args.includes('--pdf');
+const noPdf = args.includes('--no-pdf');
+const noBrowser = args.includes('--no-browser') || args.includes('--cheap');
+const refreshKnowledge = args.includes('--refresh-knowledge');
 const limit = readNumberFlag('--limit', Infinity);
 
 function readNumberFlag(name, fallback) {
@@ -109,7 +114,29 @@ function nextReportNumber() {
   return nums.length ? Math.max(...nums) + 1 : 1;
 }
 
-async function extractJob(item, browser) {
+async function extractJob(item, browserFactory, knowledgeBase) {
+  if (!refreshKnowledge && knowledgeBase.has(item.url)) {
+    return { ...item, ...knowledgeBase.get(item.url), extractionMethod: 'local-knowledge-base' };
+  }
+
+  const apiJob = await extractJobViaApi(item).catch(() => null);
+  if (apiJob?.text && apiJob.text.length > 500) {
+    return { ...item, ...apiJob, extractionMethod: apiJob.extractionMethod || 'ats-api' };
+  }
+
+  if (noBrowser) {
+    return {
+      ...item,
+      title: item.titleHint || 'Unknown role',
+      company: item.companyHint || inferCompany(item.url, ''),
+      text: `${item.companyHint || ''}\n${item.titleHint || ''}`.trim(),
+      active: false,
+      closed: false,
+      extractionMethod: 'metadata-only-no-browser',
+    };
+  }
+
+  const browser = await browserFactory();
   const page = await browser.newPage();
   try {
     await page.goto(item.url, { waitUntil: 'domcontentloaded', timeout: 30_000 });
@@ -129,10 +156,154 @@ async function extractJob(item, browser) {
       text: data.text,
       active: data.apply && !data.closed && data.text.length > 800,
       closed: data.closed,
+      extractionMethod: 'playwright',
     };
   } finally {
     await page.close();
   }
+}
+
+async function extractJobViaApi(item) {
+  const greenhouse = parseGreenhouseUrl(item.url);
+  if (greenhouse) return extractGreenhouseJob(item, greenhouse);
+
+  const lever = parseLeverUrl(item.url);
+  if (lever) return extractLeverJob(item, lever);
+
+  const ashby = parseAshbyUrl(item.url);
+  if (ashby) return extractAshbyJob(item, ashby);
+
+  return null;
+}
+
+function parseGreenhouseUrl(url) {
+  const match = url.match(/job-boards(?:\.eu)?\.greenhouse\.io\/([^/]+)\/jobs\/(\d+)/);
+  return match ? { board: match[1], id: match[2] } : null;
+}
+
+async function extractGreenhouseJob(item, { board, id }) {
+  const apiUrl = `https://boards-api.greenhouse.io/v1/boards/${board}/jobs/${id}`;
+  const json = await fetchJson(apiUrl);
+  const content = htmlToText(json.content || '');
+  const metadata = Array.isArray(json.metadata)
+    ? json.metadata.map((m) => `${m.name}: ${formatMetadataValue(m.value)}`).join('\n')
+    : '';
+  const location = json.location?.name || '';
+  const text = [
+    json.title || item.titleHint,
+    json.company_name || item.companyHint,
+    location,
+    metadata,
+    content,
+  ].filter(Boolean).join('\n\n');
+  return {
+    title: item.titleHint || json.title || '',
+    company: item.companyHint || json.company_name || inferCompany(item.url, text),
+    location,
+    text,
+    active: Boolean(json.absolute_url) && text.length > 500,
+    closed: false,
+    extractionMethod: 'greenhouse-api',
+  };
+}
+
+function parseLeverUrl(url) {
+  const match = url.match(/jobs\.lever\.co\/([^/]+)\/([a-f0-9-]+)/i);
+  return match ? { company: match[1], id: match[2] } : null;
+}
+
+async function extractLeverJob(item, { company, id }) {
+  const apiUrl = `https://api.lever.co/v0/postings/${company}/${id}`;
+  const json = await fetchJson(apiUrl);
+  const lists = Array.isArray(json.lists)
+    ? json.lists.map((list) => `${list.text}\n${htmlToText(list.content || '')}`).join('\n\n')
+    : '';
+  const categories = json.categories || {};
+  const location = categories.location || '';
+  const text = [
+    json.text || item.titleHint,
+    item.companyHint,
+    location,
+    htmlToText(json.description || ''),
+    htmlToText(json.descriptionPlain || ''),
+    lists,
+  ].filter(Boolean).join('\n\n');
+  return {
+    title: item.titleHint || json.text || '',
+    company: item.companyHint || company,
+    location,
+    text,
+    active: Boolean(json.hostedUrl || item.url) && text.length > 500,
+    closed: false,
+    extractionMethod: 'lever-api',
+  };
+}
+
+function parseAshbyUrl(url) {
+  const match = url.match(/jobs\.ashbyhq\.com\/([^/]+)\/([a-f0-9-]+)/i);
+  return match ? { board: match[1], id: match[2] } : null;
+}
+
+async function extractAshbyJob(item, { board, id }) {
+  const apiUrl = `https://api.ashbyhq.com/posting-api/job-board/${board}?includeCompensation=true`;
+  const json = await fetchJson(apiUrl);
+  const jobs = json.jobs || json.jobPostings || [];
+  const job = jobs.find((entry) => entry.id === id || entry.jobId === id || entry.externalLink?.includes(id));
+  if (!job) return null;
+  const location = job.locationName || job.location || '';
+  const text = [
+    job.title || item.titleHint,
+    item.companyHint || board,
+    location,
+    htmlToText(job.descriptionHtml || job.description || ''),
+  ].filter(Boolean).join('\n\n');
+  return {
+    title: item.titleHint || job.title || '',
+    company: item.companyHint || board,
+    location,
+    text,
+    active: text.length > 500,
+    closed: false,
+    extractionMethod: 'ashby-api',
+  };
+}
+
+async function fetchJson(url) {
+  const res = await fetch(url, {
+    headers: { accept: 'application/json', 'user-agent': 'career-ops-local-pipeline/1.0' },
+  });
+  if (!res.ok) throw new Error(`${url} returned HTTP ${res.status}`);
+  return res.json();
+}
+
+function htmlToText(html) {
+  return decodeHtmlEntities(String(html)
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/(p|div|li|ul|ol|h\d)>/gi, '\n')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/[ \t]+/g, ' ')
+    .replace(/\n\s+/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim());
+}
+
+function decodeHtmlEntities(text) {
+  return text
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
+}
+
+function formatMetadataValue(value) {
+  if (Array.isArray(value)) return value.join(', ');
+  if (value == null) return '';
+  return String(value);
 }
 
 function cleanTitle(title) {
@@ -189,10 +360,9 @@ function scoreJob(job) {
   return { score, status, hits, gaps, action };
 }
 
-function reportMarkdown(num, job, assessment, pdfPath) {
+function reportMarkdown(num, job, assessment, pdfNote) {
   const n = String(num).padStart(3, '0');
   const legitimacy = job.active ? 'High Confidence' : 'Proceed with Caution';
-  const pdf = pdfPath || 'not generated - below auto_pdf_score_threshold';
   const keywords = extractKeywords(job.text);
   return `# Evaluation: ${job.company} - ${job.title}
 
@@ -201,7 +371,7 @@ function reportMarkdown(num, job, assessment, pdfPath) {
 **Archetype:** ${archetypeFor(job)}
 **Score:** ${assessment.score.toFixed(1)}/5
 **Legitimacy:** ${legitimacy}
-**PDF:** ${pdf}
+**PDF:** ${pdfNote}
 
 ---
 
@@ -378,6 +548,38 @@ function sortApplicationsByNumber() {
   writeFileSync(APPLICATIONS_PATH, `${header.join('\n')}\n${rows.join('\n')}\n`, 'utf8');
 }
 
+function loadKnowledgeBase() {
+  const entries = new Map();
+  if (!existsSync(KNOWLEDGE_BASE_PATH)) return entries;
+  for (const line of readFileSync(KNOWLEDGE_BASE_PATH, 'utf8').split('\n')) {
+    if (!line.trim()) continue;
+    try {
+      const entry = JSON.parse(line);
+      if (entry?.url && entry?.text) entries.set(entry.url, entry);
+    } catch {
+      // Ignore malformed local cache lines; future writes remain valid JSONL.
+    }
+  }
+  return entries;
+}
+
+function rememberJob(job, assessment) {
+  const entry = {
+    url: job.url,
+    title: job.title,
+    company: job.company,
+    location: job.location || '',
+    active: job.active,
+    closed: job.closed,
+    extractionMethod: job.extractionMethod,
+    score: assessment.score,
+    status: assessment.status,
+    cached_at: new Date().toISOString(),
+    text: job.text,
+  };
+  appendFileSync(KNOWLEDGE_BASE_PATH, `${JSON.stringify(entry)}\n`, 'utf8');
+}
+
 async function main() {
   ensureDirs();
   console.log('== Kunj end-to-end pipeline ==');
@@ -392,17 +594,26 @@ async function main() {
 
   const profile = loadProfile();
   const threshold = Number(profile.auto_pdf_score_threshold ?? 4.3);
+  const pdfEnabled = forcePdf || (!noPdf && profile.pipeline?.auto_generate_pdf !== false);
+  const knowledgeBase = loadKnowledgeBase();
   const pending = pendingItems().slice(0, limit);
   if (pending.length === 0) {
     console.log('No pending URLs found.');
     return;
   }
 
-  const browser = await chromium.launch({ headless: true });
+  let browser;
+  const browserFactory = async () => {
+    if (!browser) {
+      console.log('Launching browser fallback for a job that has no cache/API extraction path...');
+      browser = await chromium.launch({ headless: true });
+    }
+    return browser;
+  };
   const processed = [];
   try {
     for (const item of pending) {
-      const job = await extractJob(item, browser);
+      const job = await extractJob(item, browserFactory, knowledgeBase);
       const assessment = scoreJob(job);
       const num = nextReportNumber();
       const n = String(num).padStart(3, '0');
@@ -412,12 +623,18 @@ async function main() {
       const jdPath = `${JDS_DIR}/${companySlug}-${roleSlug}.txt`;
       const htmlPath = `${OUTPUT_DIR}/${companySlug}-${roleSlug}-resume.html`;
       const pdfPath = `${OUTPUT_DIR}/cv-kunjkumar-patel-${companySlug}-${roleSlug}-${TODAY}.pdf`;
-      const pdfGenerated = assessment.score >= threshold && assessment.status !== 'SKIP';
+      const pdfGenerated = pdfEnabled && assessment.score >= threshold && assessment.status !== 'SKIP';
+      const pdfNote = pdfGenerated
+        ? pdfPath
+        : pdfEnabled
+          ? 'not generated - below auto_pdf_score_threshold'
+          : 'not generated - cheap/local mode; run with --pdf to generate';
 
-      console.log(`#${n} ${job.company} | ${job.title} | ${assessment.score.toFixed(1)}/5 | ${assessment.status}`);
+      console.log(`#${n} ${job.company} | ${job.title} | ${assessment.score.toFixed(1)}/5 | ${assessment.status} | ${job.extractionMethod}`);
       if (!dryRun) {
+        rememberJob(job, assessment);
         writeFileSync(jdPath, job.text, 'utf8');
-        writeFileSync(reportPath, reportMarkdown(num, job, assessment, pdfGenerated ? pdfPath : ''), 'utf8');
+        writeFileSync(reportPath, reportMarkdown(num, job, assessment, pdfNote), 'utf8');
         if (pdfGenerated) {
           writeFileSync(htmlPath, tailoredResumeHtml(job), 'utf8');
           runNode('generate-pdf.mjs', [htmlPath, pdfPath, '--format=letter']);
@@ -431,7 +648,7 @@ async function main() {
       });
     }
   } finally {
-    await browser.close();
+    if (browser) await browser.close();
   }
 
   if (!dryRun) {

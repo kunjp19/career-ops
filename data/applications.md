@@ -17,3 +17,4 @@
 | 13 | 2026-07-15 | Affirm | Senior CIAM Software Engineer | 4.6/5 | Evaluated | ✅ | [013](../reports/013-affirm-2026-07-15.md) | Apply now after reviewing tailored materials |
 | 14 | 2026-07-15 | Affirm | Senior Software Engineer, Backend (Continuous Delivery) | 4.7/5 | Evaluated | ✅ | [014](../reports/014-affirm-2026-07-15.md) | Apply now after reviewing tailored materials |
 | 15 | 2026-07-15 | Affirm | Senior Software Engineer, Backend (Infrastructure) | 4.7/5 | Evaluated | ✅ | [015](../reports/015-affirm-2026-07-15.md) | Apply now after reviewing tailored materials |
+| 16 | 2026-07-15 | Affirm | Senior Software Engineer, Backend (Lake Analytics Platform) | 4.5/5 | Evaluated | ❌ | [016](../reports/016-affirm-2026-07-15.md) | Apply now after reviewing tailored materials |

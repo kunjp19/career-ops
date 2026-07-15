@@ -9,7 +9,6 @@ Format examples:
 
 ## Pendientes
 
-- [ ] https://job-boards.greenhouse.io/affirm/jobs/7799631003 | Affirm | Senior Software Engineer, Backend (Lake Analytics Platform) 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7636414003 | Affirm | Senior Software Engineer, Backend (Merchant & Partner Lifecycle)
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7663434003 | Affirm | Senior Software Engineer, Fullstack (Consumer Engineering)
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7686804003 | Affirm | Senior Software Engineer, Full Stack (Zero to One Labs)
@@ -47,3 +46,4 @@ Format examples:
 - [x] #013 | https://job-boards.greenhouse.io/affirm/jobs/7671388003 | Affirm | Senior CIAM Software Engineer | 4.6/5 | PDF ✅
 - [x] #014 | https://job-boards.greenhouse.io/affirm/jobs/7703207003 | Affirm | Senior Software Engineer, Backend (Continuous Delivery) | 4.7/5 | PDF ✅
 - [x] #015 | https://job-boards.greenhouse.io/affirm/jobs/7708921003 | Affirm | Senior Software Engineer, Backend (Infrastructure) | 4.7/5 | PDF ✅
+- [x] #016 | https://job-boards.greenhouse.io/affirm/jobs/7799631003 | Affirm | Senior Software Engineer, Backend (Lake Analytics Platform) | 4.5/5 | PDF ❌

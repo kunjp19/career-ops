@@ -16,6 +16,8 @@
     "liveness": "node check-liveness.mjs",
     "scan": "node scan.mjs",
     "pipeline:kunj": "node scripts/kunj-pipeline.mjs",
+    "pipeline:kunj:cheap": "node scripts/kunj-pipeline.mjs --cheap --no-pdf",
+    "pipeline:kunj:apply": "node scripts/kunj-pipeline.mjs --pdf",
     "patterns": "node analyze-patterns.mjs",
     "gemini:eval": "node gemini-eval.mjs"
   },

@@ -88,6 +88,16 @@ cv:
 # Lower-scoring roles still get reports and tracker entries.
 auto_pdf_score_threshold: 4.3
 
+pipeline:
+  mode: "cheap-local-first"
+  auto_generate_pdf: false
+  browser_fallback_default: false
+  knowledge_base_path: "data/job-knowledge-base.jsonl"
+  notes:
+    - "Use ATS APIs and local cache before any browser automation."
+    - "Do not call cloud LLMs for routine triage; use deterministic local scoring."
+    - "Generate PDFs only when explicitly requested with --pdf or when preparing to apply."
+
 automation:
   discovery_sources:
     - "company career pages"
