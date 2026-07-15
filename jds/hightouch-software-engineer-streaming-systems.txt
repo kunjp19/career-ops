@@ -1,0 +1,106 @@
+Back to jobs
+Software Engineer, Streaming Systems
+Remote (North America)
+Apply
+About Hightouch
+
+Hightouch is an Agentic Marketing Platform powered by the industry-leading Composable CDP. With complete brand context, customer data, and performance history in one place, every marketer finally has the power to build and ship end-to-end campaigns themselves. Teams move faster, stay on brand, and get AI marketing that actually works.
+
+Founded in 2019 and headquartered in San Francisco, Hightouch enables marketing teams to analyze performance, brainstorm ideas, and generate creative at a speed and quality that wasn't previously possible.
+
+Named a Leader in the 2026 Gartner® Magic Quadrant™ for Customer Data Platforms, Hightouch is trusted by leading enterprises like Domino's, Spotify, Aritzia, Cars.com, Ramp, and PetSmart.
+
+At Hightouch, our mission is to help our customers leverage data and AI to grow their businesses. The team is ambitious, impact-driven, efficient — and we believe humility, kindness, and compassion are essential to our success. If you're energized by velocity, obsessed with raising the bar, and want to build alongside people who care deeply about each other and our customers, we'd love to meet you.
+
+About the Role
+
+We are looking for a software engineer to join our Streaming Systems team, working on the high-throughput systems that collect, forward, and perform real time computation on billions of behavioral events from our customers’ users. You'll be building the infrastructure that ingests clickstream, product interaction, and transactional data into our platform. This data is the platform for our “Cursor for Marketers” AI agent product.
+
+Our streaming products’ revenue has 10x’d over the past year, and we need to ensure that we continue to scale. Our infrastructure needs to handle millions of messages per second at single second latency end to end. Recently, we added a computation engine that allows personalizing user experiences in real-time based on live behavior; we’re seeing 7-figure market response in the first few months and need to scale up to meet demand.
+
+We believe in enabling our engineers to do their best work for our customers by giving them extremely high levels of ownership and autonomy. You will own and deliver projects from start to finish, work directly with customers to solve their hardest scaling problems, and have significant influence over our technical roadmap.
+
+The base salary range for this position is $180,000 - $400,000 USD per year, which is location independent in accordance with our remote-first policy. A large portion of the compensation will be in the form of equity via ISO options. We offer early exercise and a 10 year post-termination exercise window.
+
+About You
+
+You are an engineer with a passion for solving hard technical problems that generate real value for customers. You’re motivated by high ownership and are comfortable in a fast-paced, startup environment.
+
+You have experience and comfort with distributed systems and high-scale systems or the ability and desire to build this experience quickly. This experience can take different forms.
+
+Some useful, but not necessary, experience:
+
+Experience with streaming systems like Kafka, Kinesis, Pulsar, Warpstream
+Experience with high RPS, low p99 latency systems
+Interview Process
+
+Our goal with the interview process is to balance speed with giving both parties opportunities to assess whether there is a strong mutual fit. We will ask you questions, but we want you to ask us questions! Our technical interviews focus on how you design systems because we believe this is the best way for us to see how you work and for you to see how we collaborate. We don’t ask you to write code to solve technical brainteasers that don’t appear in your day to day job.
+
+Apply: Curl jobapi.hightouchdata.com on port 13784 and have followed those instructions before applying. It'll only take a minute!
+Recruiter Screen [30m]: Introductory call with our recruiting team to get to know each other and see if the role could be a good mutual fit.
+System Design Screen [45m]: Designing a data processing feature end-to-end.
+Hiring Manager Interview [30m]: Chat with hiring manager about past experiences and future operating preferences to assess fit on company values and operating principles.
+System Design Interview [90m]: Work with the interviewer to architect a system at a conceptual level. The problem will be at a pretty high level - and have both product and customer requirements as well as technical.
+
+We have limited inbound applications to one application per candidate. You will be auto-rejected if you apply to multiple roles. Please only apply to the position you are most qualified for.
+
+#LI-DNP
+
+E-Verify Statement
+
+Hightouch participates in E-Verify. After you join the team, we'll verify your eligibility to work in the U.S. by submitting information from your Form I-9 to the Social Security Administration and, if needed, the Department of Homeland Security. This process happens post-hire only — we never use E-Verify to pre-screen applicants.
+
+
+E-Verify Notice
+E-Verify Notice (Spanish)
+Right to Work Notice
+Right to Work Notice (Spanish)
+
+Create a Job Alert
+
+Interested in building your career at Hightouch? Get future opportunities sent straight to your email.
+
+Create alert
+Apply for this job
+
+*
+
+indicates a required field
+
+Quick Apply with MyGreenhouse
+First Name*
+Last Name*
+Preferred First Name
+Email*
+Phone
+Country
+Phone
+Resume/CV
+Attach
+Attach
+Dropbox
+Google Drive
+Enter manually
+Enter manually
+
+Accepted file types: pdf, doc, docx, txt, rtf
+
+Cover Letter
+Attach
+Attach
+Dropbox
+Google Drive
+Enter manually
+Enter manually
+
+Accepted file types: pdf, doc, docx, txt, rtf
+
+LinkedIn Profile
+Website
+Are you authorized to work for any employer in the U.S?*
+Select...
+Will you now or in the future require sponsorship for employment visa status? *
+Select...
+Submit application
+
+Powered by

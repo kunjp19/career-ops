@@ -1,0 +1,97 @@
+Back to jobs
+Software Engineer, Native Delivery
+Remote (North America)
+Apply
+About Hightouch
+
+Hightouch is an Agentic Marketing Platform powered by the industry-leading Composable CDP. With complete brand context, customer data, and performance history in one place, every marketer finally has the power to build and ship end-to-end campaigns themselves. Teams move faster, stay on brand, and get AI marketing that actually works.
+
+Founded in 2019 and headquartered in San Francisco, Hightouch enables marketing teams to analyze performance, brainstorm ideas, and generate creative at a speed and quality that wasn't previously possible.
+
+Named a Leader in the 2026 Gartner® Magic Quadrant™ for Customer Data Platforms, Hightouch is trusted by leading enterprises like Domino's, Spotify, Aritzia, Cars.com, Ramp, and PetSmart.
+
+At Hightouch, our mission is to help our customers leverage data and AI to grow their businesses. The team is ambitious, impact-driven, efficient — and we believe humility, kindness, and compassion are essential to our success. If you're energized by velocity, obsessed with raising the bar, and want to build alongside people who care deeply about each other and our customers, we'd love to meet you.
+
+About the Role
+
+We are looking for a software engineer to help us build the SDKs, on-device experiences, and backend systems that power how marketers reach their customers inside native apps and on the web. This is a foundational role. You'll be one of the first engineers on this surface area and you'll have a strong hand in shaping how we design our SDKs, what they expose to host applications, and how they integrate with the rest of the Hightouch platform.
+
+We give our engineers high ownership and autonomy. You will own and deliver projects start to finish, work directly with customers integrating our SDKs into their apps, and have real influence over what we build.
+
+Building a great SDK requires reasoning about the full round-trip between the device and our backend: how events are collected, how eligibility is evaluated, how messages are delivered, and how the host application renders them. You'll co-design the API and backend alongside the rest of the team.
+
+Some of the problems we'll be working on:
+
+Cross-channel orchestration on-device. Deciding what a user sees, on which device, at which moment, without channels stepping on each other or one user getting hit five times in a session.
+In-app messaging and custom UX. Custom messaging and on-device experiences triggered while a user is active in a customer's app. The SDK evaluates eligibility locally against rules pushed down from our backend.
+Behavioral data collection. Custom events, screen views, and user attributes batched on-device and shipped to our backend to feed real-time targeting.
+SDK developer experience. Clear init, sane defaults, useful errors, and docs that respect the host engineer's time. Versioning and distribution that doesn't break customer app builds.
+
+This is a senior role, but we focus on impact and potential for growth more than years of experience. The salary range for this position is $180,000 - $400,000 USD per year, which is location independent in accordance with our remote-first policy. We also offer meaningful equity compensation in the form of ISO options, and offer early exercise and a 10 year post-termination exercise window.
+
+About You
+
+You're motivated by high ownership and comfortable in a fast-paced, startup environment. You don't need to already know how to do everything in this role. We are primarily looking for smart, motivated people who want to grow into the work.
+
+That said, useful experience includes any of the following:
+
+Native development across iOS, Android, or React Native, with enthusiasm for working across all of them and learning what you don't already know
+Shipping an SDK or library that other developers integrated into their own applications
+Designing systems that span a server, a network, and a client, where the same problem looks different on each side and the contract between them matters as much as the code
+
+ 
+
+E-Verify Statement
+
+Hightouch participates in E-Verify. After you join the team, we'll verify your eligibility to work in the U.S. by submitting information from your Form I-9 to the Social Security Administration and, if needed, the Department of Homeland Security. This process happens post-hire only — we never use E-Verify to pre-screen applicants.
+
+
+E-Verify Notice
+E-Verify Notice (Spanish)
+Right to Work Notice
+Right to Work Notice (Spanish)
+
+Create a Job Alert
+
+Interested in building your career at Hightouch? Get future opportunities sent straight to your email.
+
+Create alert
+Apply for this job
+
+*
+
+indicates a required field
+
+Quick Apply with MyGreenhouse
+First Name*
+Last Name*
+Preferred First Name
+Email*
+Phone
+Country
+Phone
+Resume/CV
+Attach
+Attach
+Dropbox
+Google Drive
+Enter manually
+Enter manually
+
+Accepted file types: pdf, doc, docx, txt, rtf
+
+Cover Letter
+Attach
+Attach
+Dropbox
+Google Drive
+Enter manually
+Enter manually
+
+Accepted file types: pdf, doc, docx, txt, rtf
+
+LinkedIn Profile
+Website
+Submit application
+
+Powered by

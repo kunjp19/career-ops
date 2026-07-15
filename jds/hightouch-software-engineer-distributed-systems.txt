@@ -1,0 +1,103 @@
+Back to jobs
+Software Engineer, Distributed Systems
+Remote (North America)
+Apply
+About Hightouch
+
+Hightouch is an Agentic Marketing Platform powered by the industry-leading Composable CDP. With complete brand context, customer data, and performance history in one place, every marketer finally has the power to build and ship end-to-end campaigns themselves. Teams move faster, stay on brand, and get AI marketing that actually works.
+
+Founded in 2019 and headquartered in San Francisco, Hightouch enables marketing teams to analyze performance, brainstorm ideas, and generate creative at a speed and quality that wasn't previously possible.
+
+Named a Leader in the 2026 Gartner® Magic Quadrant™ for Customer Data Platforms, Hightouch is trusted by leading enterprises like Domino's, Spotify, Aritzia, Cars.com, Ramp, and PetSmart.
+
+At Hightouch, our mission is to help our customers leverage data and AI to grow their businesses. The team is ambitious, impact-driven, efficient — and we believe humility, kindness, and compassion are essential to our success. If you're energized by velocity, obsessed with raising the bar, and want to build alongside people who care deeply about each other and our customers, we'd love to meet you.
+
+About the Role
+
+We are looking for a distributed systems engineer to work on the systems that power the syncing engine our customers and other engineering teams rely on. This presents an exciting challenge where you can apply your expertise in distributed systems, performance optimization, and troubleshooting to push the boundaries of what is possible and meaningfully improve our ability to move massive amounts of customer data. This role also provides a unique opportunity to work on a multi-cloud and multi-region infrastructure that supports a global customer base.
+
+We believe in enabling our engineers to do their best work for our customers by giving them extremely high levels of ownership and autonomy. This comes in different forms: you will own and deliver projects from start to finish, you will work directly with customers to solve their hardest scaling problems, and you will have a lot of influence over what we work on as a team and company.
+
+Some of the problems we’ll be working on include:
+
+Sync Speed: Customers want to sync a lot of data to important destinations like Facebook and Snapchat, which requires us to analyze every part of our syncing process and find where we can optimize to sync data more quickly
+Streaming Syncing: We currently sync data from sources in batch only, but envision a world where we also do syncs in real-time and support streaming sources like webhooks and queues
+Scalability and Reliability: As part of our rapid growth, we’re always evaluating current future bottlenecks in scaling and reliability, and architecting for the next order of magnitude of growth
+Personalization API: Our Personalization API product provides a low latency caching layer on top of data warehouses that enable customers to use their data warehouse for real-time personalization use cases with <30ms p90 response times with QPS in the millions
+Multi-Region and Multi-Cloud: Supporting our multi-region and multi-cloud backend, including extending it to launch Hightouch on in new regions to support data residency requirements of our global customer base
+
+We are looking for talented, intellectually curious, and motivated individuals who are interested in tackling the problems above. This is a senior role, but we focus on impact and potential for growth more than years of experience. The salary range for this position is $180,000 - $400,000 USD per year, which is location independent in accordance with our remote-first policy. We also offer meaningful equity compensation in the form of ISO options, and offer early exercise and a 10 year post-termination exercise window.
+
+About You
+
+You are an engineer with a passion for solving hard technical problems that generate real value for customers. You’re motivated by high ownership and are comfortable in a fast-paced, startup environment.
+
+You have experience and comfort with distributed systems and high-scale systems or the ability and desire to build this experience quickly. This experience can take different forms:
+
+You’ve built syncing engines that process and move terabytes of data per day in a scalable way
+You’ve created event collection or data streaming services that power company critical systems
+You’ve owned systems that have undergone orders of magnitude of growth and helped them scale accordingly
+You have relevant skills and are a fast learner who is excited to take on the challenges we face
+Interview Process
+
+Our goal with the interview process is to balance speed with giving both parties opportunities to assess whether there is a strong mutual fit. We will ask you questions, but we want you to ask us questions! Our technical interviews focus on how you design systems because we believe this is the best way for us to see how you work and for you to see how we collaborate. We don’t ask you to write code to solve technical brainteasers that don’t appear in your day to day job.
+
+Recruiter Screen [30m]: Introductory call with our recruiting team to get to know each other and see if the role could be a good mutual fit.
+System Design Screen [45m]: Designing a data processing feature end-to-end.
+Hiring Manager Interview [30m]: Chat with hiring manager about past experiences and future operating preferences to assess fit on company values and operating principles.
+System Design Interview [90m]: Work with the interviewer to architect a system at a conceptual level. The problem will be at a pretty high level - and have both product and customer requirements as well as technical.
+
+We have limited inbound applications to one application per candidate. You will be auto-rejected if you apply to multiple roles. Please only apply to the position you are most qualified for.
+
+#LI-DNP
+
+E-Verify Statement
+
+Hightouch participates in E-Verify. After you join the team, we'll verify your eligibility to work in the U.S. by submitting information from your Form I-9 to the Social Security Administration and, if needed, the Department of Homeland Security. This process happens post-hire only — we never use E-Verify to pre-screen applicants.
+
+
+E-Verify Notice
+E-Verify Notice (Spanish)
+Right to Work Notice
+Right to Work Notice (Spanish)
+
+Create a Job Alert
+
+Interested in building your career at Hightouch? Get future opportunities sent straight to your email.
+
+Create alert
+Apply for this job
+
+*
+
+indicates a required field
+
+Quick Apply with MyGreenhouse
+First Name*
+Last Name*
+Email*
+Phone
+Country
+Phone
+Resume/CV
+Attach
+Attach
+Dropbox
+Google Drive
+Enter manually
+Enter manually
+
+Accepted file types: pdf, doc, docx, txt, rtf
+
+LinkedIn Profile*
+Github
+Are you currently located in North America? *
+Select...
+Why are you interested in working at Hightouch?*
+Are you authorized to work for any employer in the U.S?*
+Select...
+Will you now or in the future require sponsorship for employment visa status? *
+Select...
+Submit application
+
+Powered by

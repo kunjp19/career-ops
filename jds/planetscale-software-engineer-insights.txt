@@ -1,0 +1,97 @@
+Back to jobs
+Software Engineer - Insights
+San Francisco Bay Area or Remote
+Apply
+
+PlanetScale is growing rapidly and reinventing the database space. The PlanetScale platform offers both Postgres and Vitess clusters. Vitess, an open-source database clustering system for horizontal scaling of MySQL, enables businesses to efficiently handle large-scale data workloads — without sacrificing developer experience.
+
+PlanetScale is seeking an engineer to join our Insights team to help build our customer facing database observability product. Insights helps developers understand their database performance and provides visibility into query patterns, performance metrics and database health across both Vitess/MySQL and PostgreSQL systems.
+
+What You'll Do
+Instrument Vitess, MySQL and PostgreSQL to emit performance data
+Design, implement and maintain our data collection pipeline
+Create intuitive dashboards and visualizations that surface actionable database insights
+Develop APIs and integrations that expose insights data to customers
+Collaborate with other teams to define the next generation of database observability features
+Build tools for query analysis, performance profiling, and anomaly detection
+Own features end-to-end, from initial design through production deployment and monitoring
+Partner with customers and support teams to understand real-world observability challenges
+What We're Looking For
+
+Required:
+
+5+ years of software engineering experience
+Experience building observability, monitoring, or telemetry products (APM, logs, metrics, traces, etc.)
+Experience with distributed systems and data pipelines
+Proficiency with time-series data and aggregation patterns
+Backend development experience (Go, Rust, Ruby, Python, or similar)
+Comfort working across the full stack and switching between different technical domains
+Ability to work in a self-directed environment
+
+Nice to Have:
+
+Knowledge of ClickHouse, Prometheus, or other time-series databases
+Familiarity with streaming data systems (Kafka)
+Background in database internals or query optimization
+Experience with MySQL, PostgreSQL or Vitess
+About You
+
+You're someone who deeply understands the challenges developers face when debugging database performance issues. You've built observability tooling before and have strong opinions about what makes telemetry data useful versus overwhelming.
+
+You enjoy wearing many hats and get energized by working on diverse problems across the stack. You ship quickly and iterate based on feedback. You collaborate effectively with engineers in different domains. You're excited about leveraging AI tools to move faster. You make pragmatic technical decisions and can work independently with minimal direction.
+
+Why PlanetScale
+
+We're redefining how high-growth companies manage data at scale—and we work with some of the most exciting brands in gaming, consumer tech, and B2B SaaS. As a Software Engineer, you'll be at the core of building the platform that powers world-class apps used by hundreds of millions of users worldwide. PlanetScale is a profitable company with a philosophy centered around building small teams of p99 individuals and is recognized as one of the fastest growing companies in America.
+
+At PlanetScale we believe in supporting people to do their best work and thrive no matter the location. Our mission is to build a diverse, equitable, and inclusive company. We strive to build an inclusive environment where all people feel that they are equally respected and valued, whether they are a candidate or an employee. We welcome applicants of any educational background, gender identity and expression, sexual orientation, religion, ethnicity, age, citizenship, socioeconomic status, disability, pregnancy status, and veteran status.
+
+If you have a disability, please let us know if there's any way we can make the interview process better for you; we're happy to accommodate!
+
+Total Compensation and Pay Transparency
+
+An employee's total compensation consists of base salary + variable comp where appropriate + benefits + equity. A member of our Talent Acquisition team will be happy to answer any further questions when we engage with you to begin the interview process.
+
+Base salary range: $120,000 - $290,000 USD
+
+ 
+
+Apply for this job
+
+*
+
+indicates a required field
+
+First Name*
+Last Name*
+Preferred First Name
+Email*
+Phone
+Country
+Phone
+Resume/CV
+Attach
+Attach
+Dropbox
+Google Drive
+Enter manually
+Enter manually
+
+Accepted file types: pdf, doc, docx, txt, rtf
+
+Cover Letter
+Attach
+Attach
+Dropbox
+Google Drive
+Enter manually
+Enter manually
+
+Accepted file types: pdf, doc, docx, txt, rtf
+
+LinkedIn Profile
+Website
+Please tell us a little about your background and why you're interested in this role.*
+Submit application
+
+Powered by

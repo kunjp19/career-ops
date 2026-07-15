@@ -1,0 +1,98 @@
+Back to jobs
+Software Engineer, Customer Studio Backend
+Remote (North America)
+Apply
+About Hightouch
+
+Hightouch is an Agentic Marketing Platform powered by the industry-leading Composable CDP. With complete brand context, customer data, and performance history in one place, every marketer finally has the power to build and ship end-to-end campaigns themselves. Teams move faster, stay on brand, and get AI marketing that actually works.
+
+Founded in 2019 and headquartered in San Francisco, Hightouch enables marketing teams to analyze performance, brainstorm ideas, and generate creative at a speed and quality that wasn't previously possible.
+
+Named a Leader in the 2026 Gartner® Magic Quadrant™ for Customer Data Platforms, Hightouch is trusted by leading enterprises like Domino's, Spotify, Aritzia, Cars.com, Ramp, and PetSmart.
+
+At Hightouch, our mission is to help our customers leverage data and AI to grow their businesses. The team is ambitious, impact-driven, efficient — and we believe humility, kindness, and compassion are essential to our success. If you're energized by velocity, obsessed with raising the bar, and want to build alongside people who care deeply about each other and our customers, we'd love to meet you.
+
+About the Role
+
+Customer Studio is Hightouch’s second major product that provides a purpose-built no-code suite of features that enables anyone, regardless of their SQL experience, to activate data directly from their warehouse. The product has become an essential part of the day-to-day operations for marketing and growth teams to build and measure audiences and campaigns, and it also serves as part of the underlying infrastructure that powers our agentic marketing workflows. The team blends product and customer-first thinking with challenges at high data scale, helping us reimagine marketing in an AI-native world.
+
+We’re looking to add a product-minded backend engineer to the team. The ideal candidate will be comfortable diving deep into backend and distributed systems and think holistically about architecture, scalability, maintainability, and reliability. We also are looking for someone with strong customer and product thinking and who feels comfortable writing and engaging with product specs.
+
+Some of the problems we’ll be working on include:
+
+Data Warehouse Performance: We’re consistently pushing the limits of what data warehouses can handle in terms of speed, performance, and interactivity. We explore optimizations generally (e.g. optimizing queries, storing pre-computed state), as well as investigate warehouse-specific improvements.
+Analytics and Experimentation: How can Hightouch help customers build segments and decide what data they want to sync? How can we facilitate experimentation to downstream tools, including tracking the performance of different audiences?
+Real-time Audience Syncing: Our users are always interested in faster syncing and fresher data. As warehouses become more real-time and adopt technologies like CDC, we’re excited to explore real-time audience computation and syncing.
+Generative AI: We’re continuously working on making the user experience of acting on data more seamless, and are optimistic generative AI can enhance user workflows.
+
+We are looking for talented, intellectually curious, and motivated individuals who are interested in tackling the problems above. This is a senior role, but we focus on impact and potential for growth more than years of experience. The salary range for this position is $180,000 - $400,000 USD per year, which is location independent in accordance with our remote-first policy. We also offer meaningful equity compensation in the form of ISO options, and offer early exercise and a 10 year post-termination exercise window.
+
+Interview Process
+
+Our interview process focuses on evaluating fit for the most important dimensions of the role: product sense, ability to architect backend and distributed systems, and alignment with Hightouch’s values. Notably, we don’t do any programming interviews as we believe they are low signal to noise and aren’t a good evaluation mechanism.
+
+Recruiter Screen [30m]: Introductory call with our recruiting team to get to know each other and see if the role could be a good mutual fit.
+System Design Screen [45m]: Designing a data processing feature end-to-end.
+Hiring Manager Interview [30m]: Chat with hiring manager about past experiences and future operating preferences to assess fit on company values and operating principles.
+System Design Interview [90m]: Work with the interviewer to architect a system at a conceptual level. The problem will be at a pretty high level - and have both product and customer requirements as well as technical.
+
+#LI-DNI
+
+E-Verify Statement
+
+Hightouch participates in E-Verify. After you join the team, we'll verify your eligibility to work in the U.S. by submitting information from your Form I-9 to the Social Security Administration and, if needed, the Department of Homeland Security. This process happens post-hire only — we never use E-Verify to pre-screen applicants.
+
+
+E-Verify Notice
+E-Verify Notice (Spanish)
+Right to Work Notice
+Right to Work Notice (Spanish)
+
+Create a Job Alert
+
+Interested in building your career at Hightouch? Get future opportunities sent straight to your email.
+
+Create alert
+Apply for this job
+
+*
+
+indicates a required field
+
+Quick Apply with MyGreenhouse
+First Name*
+Last Name*
+Preferred First Name
+Email*
+Phone
+Country
+Phone
+Resume/CV
+Attach
+Attach
+Dropbox
+Google Drive
+Enter manually
+Enter manually
+
+Accepted file types: pdf, doc, docx, txt, rtf
+
+Cover Letter
+Attach
+Attach
+Dropbox
+Google Drive
+Enter manually
+Enter manually
+
+Accepted file types: pdf, doc, docx, txt, rtf
+
+LinkedIn Profile
+Website
+Are you authorized to work for any employer in the U.S?*
+Select...
+Will you now or in the future require sponsorship for employment visa status? *
+Select...
+Submit application
+
+Powered by

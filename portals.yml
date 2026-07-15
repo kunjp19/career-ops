@@ -32,6 +32,10 @@ title_filter:
     - Sales
     - Account Executive
     - Recruiter
+    - Head of
+    - Marketing
+    - Frontend Leaning
+    - Information Security
     - Salesforce Admin
     - WordPress
     - PHP
@@ -47,6 +51,31 @@ title_filter:
     - Lead
     - Staff
     - Principal
+
+location_filter:
+  allow:
+    - Remote
+    - United States
+    - USA
+    - US
+    - North America
+    - Detroit
+    - Ann Arbor
+    - Canton
+    - Michigan
+  block:
+    - Canada
+    - LATAM
+    - Latin America
+    - EMEA
+    - India
+    - Bengaluru
+    - Bangalore
+    - Argentina
+    - Europe
+    - San Francisco, California, United States
+    - New York, New York, United States
+    - Austin, Texas, United States
 
 search_queries:
   - name: LinkedIn - Senior Backend Java Remote
@@ -78,6 +107,49 @@ search_queries:
     enabled: true
 
 tracked_companies:
+  - name: Real
+    careers_url: https://jobs.ashbyhq.com/real
+    notes: Strong Java/Spring Boot backend and AI-assisted development fit.
+    enabled: true
+  - name: Postman
+    careers_url: https://job-boards.greenhouse.io/postman
+    notes: Strong API/platform/backend fit; check location requirements carefully.
+    enabled: true
+  - name: Bestow
+    careers_url: https://jobs.ashbyhq.com/bestow
+    notes: Remote backend/platform roles; Go/Python-heavy roles are stretch unless Java is central.
+    enabled: true
+  - name: Luxury Presence
+    careers_url: https://jobs.lever.co/luxurypresence
+    notes: Proptech backend/data/AI roles; data-platform-heavy roles are stretch.
+    enabled: true
+  - name: Foodsmart
+    careers_url: https://jobs.lever.co/foodsmart
+    notes: Remote data/backend roles; prioritize Java/Python backend or data pipeline roles with SQL fit.
+    enabled: true
+  - name: Temporal
+    careers_url: https://job-boards.greenhouse.io/temporal
+    api: https://boards-api.greenhouse.io/v1/boards/temporal/jobs
+    notes: Workflow orchestration and platform engineering; strong distributed systems lane.
+    enabled: false
+  - name: WorkOS
+    careers_url: https://jobs.ashbyhq.com/workos
+    notes: Developer platform; strong backend/platform/API lane.
+    enabled: true
+  - name: Hightouch
+    careers_url: https://job-boards.greenhouse.io/hightouch
+    api: https://boards-api.greenhouse.io/v1/boards/hightouch/jobs
+    notes: Data activation platform; backend/data roles may fit.
+    enabled: true
+  - name: PlanetScale
+    careers_url: https://job-boards.greenhouse.io/planetscale
+    api: https://boards-api.greenhouse.io/v1/boards/planetscale/jobs
+    notes: Database/platform engineering; stretch but relevant to SQL/backend systems.
+    enabled: true
+  - name: Clerk
+    careers_url: https://jobs.ashbyhq.com/clerk
+    notes: Developer platform with backend/API roles; scan for Java/backend-adjacent roles.
+    enabled: true
   - name: NTT DATA
     careers_url: https://www.nttdata.com/global/en/careers
     scan_method: websearch
