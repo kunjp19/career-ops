@@ -150,7 +150,7 @@ function inferCompany(url, text) {
 }
 
 function scoreJob(job) {
-  const text = `${job.title}\n${job.text}`.toLowerCase();
+  const text = `${job.company}\n${job.title}\n${job.text}`.toLowerCase();
   let score = 2.5;
   const hits = [];
   const gaps = [];
@@ -168,13 +168,15 @@ function scoreJob(job) {
   add(/sql|postgres|mysql|oracle|database|schema|hibernate/.test(text), 0.3, 'SQL/database overlap');
   add(/test|junit|code review|mentor|maintainability|production|reliability/.test(text), 0.25, 'quality/mentoring/reliability');
   add(/remote|united states|usa|us remote/.test(text), 0.25, 'remote/US-compatible');
+  add(/remote-first|remote first|remote workforce|work remotely/.test(text), 0.25, 'remote-first company/work model');
+  add(/\baffirm\b/.test(text), 0.25, 'priority company: Affirm');
   add(/ai-assisted|claude code|codex|cursor|copilot|agentic/.test(text), 0.2, 'AI-assisted development relevance');
 
   sub(/staff/.test(text) && /10\+ years|8\+ years/.test(text) && !/java/.test(text), 0.5, 'staff scope without Java-first fit');
   sub(/10\+ years/.test(text), 0.25, '10+ years requested');
   sub(/go and python|strong proficiency in go and python|python \+ postgresql, go/.test(text), 0.35, 'Go/Python primary stack');
   sub(/spark|flink|airflow|dagster|snowflake|bigquery|redshift/.test(text) && !/spring boot/.test(text), 0.35, 'data-platform-heavy stack');
-  sub(/san francisco office|in-office|in office|onsite|on-site/.test(text) && !/remote, us|remote \(us\)|usa \(remote\)/.test(text), 0.85, 'onsite/location blocker');
+  sub(/san francisco office|in-office|in office|onsite|on-site/.test(text) && !/remote,? us|remote \(us\)|usa \(remote\)/.test(text), 0.85, 'onsite/location blocker');
   sub(/visa sponsorship/.test(text) && /require immigration support/.test(text), 0.1, 'authorization question present');
 
   score = Math.max(1, Math.min(5, Math.round(score * 10) / 10));
@@ -231,6 +233,7 @@ Use the posted salary when present. For negotiation, compare against senior back
 
 - Lead with Java/Spring Boot, event-driven services, CI/CD, and production reliability when those appear in the JD.
 - Mention SQL tuning, schema design, and reporting/data integration for data-heavy roles.
+- For Affirm or other remote-first companies, connect Kunj's remote-first preference to practical ownership, written communication, and production reliability.
 - Add the AI-assisted Java quality lab proof point before applying to AI-assisted development roles.
 - Generate a tailored PDF only for roles scoring at or above the configured threshold.
 
@@ -284,7 +287,7 @@ function extractKeywords(text) {
     'TeamCity', 'Datadog', 'Grafana', 'testing', 'JUnit', 'code reviews',
     'mentoring', 'production reliability', 'Python', 'Go', 'Airflow', 'Spark',
     'Flink', 'Snowflake', 'Redshift', 'BigQuery', 'AI-assisted development',
-    'Claude Code', 'Codex', 'Cursor', 'agentic'
+    'Claude Code', 'Codex', 'Cursor', 'agentic', 'remote-first', 'Affirm'
   ];
   const lower = text.toLowerCase();
   return candidates.filter((kw) => lower.includes(kw.toLowerCase())).slice(0, 28);
@@ -340,6 +343,25 @@ function markProcessed(items) {
   const insertAt = text.indexOf('## Procesadas') + '## Procesadas'.length;
   text = text.slice(0, insertAt) + '\n\n' + processedLines.join('\n') + text.slice(insertAt);
   writeFileSync(PIPELINE_PATH, text, 'utf8');
+  sortPipelineProcessedByNumber();
+}
+
+function sortPipelineProcessedByNumber() {
+  if (!existsSync(PIPELINE_PATH)) return;
+  const text = readFileSync(PIPELINE_PATH, 'utf8');
+  const marker = '## Procesadas';
+  const markerIndex = text.indexOf(marker);
+  if (markerIndex === -1) return;
+
+  const before = text.slice(0, markerIndex + marker.length).replace(/\s+$/, '');
+  const after = text.slice(markerIndex + marker.length);
+  const processedLines = after
+    .split('\n')
+    .map((line) => line.trim())
+    .filter((line) => /^- \[x\] #\d+ \|/.test(line))
+    .sort((a, b) => Number(a.match(/#(\d+)/)?.[1] || 0) - Number(b.match(/#(\d+)/)?.[1] || 0));
+
+  writeFileSync(PIPELINE_PATH, `${before}\n\n${processedLines.join('\n')}\n`, 'utf8');
 }
 
 function sortApplicationsByNumber() {
@@ -389,7 +411,7 @@ async function main() {
       const reportPath = `${REPORTS_DIR}/${n}-${companySlug}-${TODAY}.md`;
       const jdPath = `${JDS_DIR}/${companySlug}-${roleSlug}.txt`;
       const htmlPath = `${OUTPUT_DIR}/${companySlug}-${roleSlug}-resume.html`;
-      const pdfPath = `${OUTPUT_DIR}/cv-kunjkumar-patel-${companySlug}-${TODAY}.pdf`;
+      const pdfPath = `${OUTPUT_DIR}/cv-kunjkumar-patel-${companySlug}-${roleSlug}-${TODAY}.pdf`;
       const pdfGenerated = assessment.score >= threshold && assessment.status !== 'SKIP';
 
       console.log(`#${n} ${job.company} | ${job.title} | ${assessment.score.toFixed(1)}/5 | ${assessment.status}`);

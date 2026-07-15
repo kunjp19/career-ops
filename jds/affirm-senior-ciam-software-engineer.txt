@@ -1,0 +1,147 @@
+Senior CIAM Software Engineer
+Remote US
+Apply
+
+Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.
+
+Affirm is building the next generation of customer identity and authentication. This role is a hands-on engineering position inside Information Security, focused on designing and shipping core CIAM capabilities that protect customers and support growth.
+
+You will build and operate backend services that power registration, login, authorization, and account lifecycle flows across B2C and B2B experiences. You will work closely with partner engineering teams and ensure identity features are delivered with strong security fundamentals, reliability, and operational rigor.
+
+What you’ll do
+Design, build, and operate core CIAM backend services that support customer registration, authentication, authorization, account lifecycle, and profile management for B2C and B2B platforms.
+Implement and extend identity standards such as OAuth 2.0, OIDC, SAML, and SCIM in code, ensuring correctness, scalability, and clean integration patterns.
+Develop backend APIs and services in Python and Kotlin that expose identity capabilities to web, mobile, and partner applications.
+Integrate CIAM platforms with internal systems, including user data stores, messaging, fraud signals, and downstream customer platforms.
+Own secure authentication and account flows end to end, including MFA, step-up authentication, device binding, consent, and adaptive authentication logic.
+Automate CIAM infrastructure and deployments using Infrastructure as Code and CI/CD pipelines, treating identity as a core platform service.
+Monitor, debug, and optimize CIAM services for performance, resilience, and abuse detection in high-scale environments.
+What we look for
+Strong experience designing and implementing CIAM systems, with deep, hands-on knowledge of OAuth 2.0, OIDC, SAML, and SCIM beyond basic configuration.
+5+ years of professional backend software engineering experience
+Strong production experience in Python or a similar backend language
+Experience designing APIs, automation frameworks, and distributed systems
+Hands-on experience building and maintaining CI/CD pipelines
+Experience with GitHub-based development workflows and Buildkite or similar build systems
+Experience with cloud-native development, preferably AWS
+Hands-on experience extending and integrating CIAM platforms such as Okta, Auth0, Ping Identity, ForgeRock, or Azure AD B2C using custom code, hooks, and APIs.
+Solid understanding of backend and distributed systems fundamentals, including API design, data modeling, latency, error handling, and observability.
+Experience with Infrastructure as Code and automation tools such as Terraform, plus CI/CD pipelines for deploying backend services.
+Strong security fundamentals applied through engineering, including access control models, token handling, encryption, MFA, and privacy by design.
+Clear communication skills and the ability to work closely with product, frontend, mobile, and security teams while owning backend identity services.
+Familiarity with tools such as Cursor and other AI-augmented development environments
+
+ 
+
+Base Pay Grade - N
+
+Equity Grade - USA 9
+
+
+Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.
+
+Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.)
+
+USA base pay range (CA, WA, NY, NJ, CT) per year: $195,000 - $255,000
+USA base pay range (all other U.S. states) per year: $173,000 - $233,000
+
+#LI-Remote
+
+Affirm is proud to be a remote-first company! The majority of our roles are remote and you can work almost anywhere within the country of employment. Affirmers in proximal roles have the flexibility to work remotely, but will occasionally be required to work out of their assigned Affirm office. A limited number of roles remain office-based due to the nature of their job responsibilities.
+
+We’re extremely proud to offer competitive benefits that are anchored to our core value of people come first. Some key highlights of our benefits package include: 
+
+Health care coverage - Affirm covers all premiums for all levels of coverage for you and your dependents 
+Flexible Spending Wallets - generous stipends for spending on Technology, Food, various Lifestyle needs, and family forming expenses
+Time off - competitive vacation and holiday schedules allowing you to take time off to rest and recharge
+ESPP - An employee stock purchase plan enabling you to buy shares of Affirm at a discount
+
+We believe It’s On Us to provide an inclusive interview experience for all, including people with disabilities. We are happy to provide reasonable accommodations to candidates in need of individualized support during the hiring process.
+
+[For U.S. positions that could be performed in Los Angeles or San Francisco] Pursuant to the San Francisco Fair Chance Ordinance and Los Angeles Fair Chance Initiative for Hiring Ordinance, Affirm will consider for employment qualified applicants with arrest and conviction records.
+
+By clicking "Submit Application," you acknowledge that you have read Affirm's Global Candidate Privacy Notice and hereby freely and unambiguously give informed consent to the collection, processing, use, and storage of your personal information as described therein.
+
+Create a Job Alert
+
+Interested in building your career at Affirm? Get future opportunities sent straight to your email.
+
+Create alert
+Apply for this job
+
+*
+
+indicates a required field
+
+Quick Apply with MyGreenhouse
+First Name*
+Last Name*
+Email*
+Phone
+Country*
+Phone*
+Resume/CV*
+Attach
+Attach
+Dropbox
+Google Drive
+Enter manually
+Enter manually
+
+Accepted file types: pdf, doc, docx, txt, rtf
+
+Cover Letter
+Attach
+Attach
+Dropbox
+Google Drive
+Enter manually
+Enter manually
+
+Accepted file types: pdf, doc, docx, txt, rtf
+
+LinkedIn Profile
+Current Company
+Preferred Name*
+Name Pronunciation
+Pronouns *
+Select...
+Are you legally authorized to work in the United States?*
+Select...
+Do you now or in the future require sponsorship for employment visa status (e.g., H-1B, TN, E-3, F-1 visa status)?*
+Select...
+Which U.S. State or Canadian Province do you reside in?*
+Select...
+How did you first learn about Affirm as an employer? *
+Select...
+GitHub
+Twitter
+Portfolio
+Other Links
+Have you previously been employed at Affirm for any length of time?*
+Select...
+Demographic Survey Statement (US-based roles)
+
+Affirm is dedicated to building an inclusive culture where Affirmers belong and have an equal opportunity to thrive.
+
+To help us assess our outreach efforts, we invite candidates to voluntarily share information through a short demographic survey. This information is:
+
+Completely optional
+
+Anonymized and stored in aggregate
+
+Not accessible to recruiters or hiring managers at the individual level
+
+Never used in any hiring decision
+
+
+
+Your decision to provide or withhold this information will not impact your candidacy in any way.
+
+How do you identify? (gender identity)
+Select...
+How do you identify? (race/ethnicity)
+Select...
+Submit application
+
+Powered by

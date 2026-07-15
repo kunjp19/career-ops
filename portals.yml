@@ -32,14 +32,18 @@ title_filter:
     - Sales
     - Account Executive
     - Recruiter
+    - Director
+    - Manager
     - Head of
     - Marketing
+    - Frontend
     - Frontend Leaning
     - Information Security
     - Salesforce Admin
     - WordPress
     - PHP
     - Mobile only
+    - Mobile
     - iOS
     - Android
     - Blockchain
@@ -73,6 +77,12 @@ location_filter:
     - Bangalore
     - Argentina
     - Europe
+    - European Union
+    - EU
+    - United Kingdom
+    - UK
+    - Poland
+    - Spain
     - San Francisco, California, United States
     - New York, New York, United States
     - Austin, Texas, United States
@@ -105,8 +115,16 @@ search_queries:
   - name: Applied AI Backend
     query: '"Applied AI Engineer" OR "AI Backend Engineer" Java OR Python remote site:jobs.ashbyhq.com OR site:job-boards.greenhouse.io'
     enabled: true
+  - name: Affirm - Remote Backend
+    query: 'site:job-boards.greenhouse.io/affirm "Software Engineer" "Backend" "remote-first"'
+    enabled: true
 
 tracked_companies:
+  - name: Affirm
+    careers_url: https://job-boards.greenhouse.io/affirm
+    api: https://boards-api.greenhouse.io/v1/boards/affirm/jobs
+    notes: Priority target. Remote-first fintech company; favor backend, platform, data, storage, payments, and distributed systems roles.
+    enabled: true
   - name: Real
     careers_url: https://jobs.ashbyhq.com/real
     notes: Strong Java/Spring Boot backend and AI-assisted development fit.

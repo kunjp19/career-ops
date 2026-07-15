@@ -30,6 +30,8 @@ Do not put this personalization in modes/_shared.md.
 ## Learning Your Job Application Preferences
 
 - Prefer roles where backend engineering is central: Java, Spring Boot, distributed systems, microservices, data pipelines, APIs, cloud platforms, and production reliability.
+- Prioritize Affirm and similar remote-first companies when the role is backend, platform, data, payments, storage, or distributed-systems oriented.
+- Treat remote-first as meaningfully better than merely remote-allowed when the company has a transparent remote operating model and the role can be performed from the United States.
 - Prioritize Senior Software Engineer, Backend Engineer, Java Engineer, Cloud Backend Engineer, Data Pipeline Engineer, and Platform Engineer roles.
 - Secondary fit: full-stack roles where React is helpful but the core value is backend/platform engineering.
 - Adjacent fit: applied AI backend roles that value production engineering more than pure model research.
@@ -98,5 +100,6 @@ Use market research for:
 **In evaluations:**
 
 - Remote senior backend/cloud/data/platform roles score highest.
+- Affirm and remote-first companies should receive positive weighting when the technical role is close to Kunjkumar's backend/platform/data strengths.
 - Detroit metro and Ann Arbor hybrid roles can score well when the commute and engineering fit are strong.
 - Score low for jobs requiring relocation without clear upside, frequent travel, or full-time on-site outside a reasonable local radius.

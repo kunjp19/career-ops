@@ -14,3 +14,6 @@
 | 10 | 2026-07-15 | Hightouch | Software Engineer, Native Delivery | 3.4/5 | SKIP | ❌ | [010](../reports/010-hightouch-2026-07-15.md) | Skip or hold until proof points improve |
 | 11 | 2026-07-15 | Hightouch | Software Engineer, Streaming Systems | 3.4/5 | SKIP | ❌ | [011](../reports/011-hightouch-2026-07-15.md) | Skip or hold until proof points improve |
 | 12 | 2026-07-15 | PlanetScale | Software Engineer - Insights | 3.8/5 | SKIP | ❌ | [012](../reports/012-planetscale-2026-07-15.md) | Skip or hold until proof points improve |
+| 13 | 2026-07-15 | Affirm | Senior CIAM Software Engineer | 4.6/5 | Evaluated | ✅ | [013](../reports/013-affirm-2026-07-15.md) | Apply now after reviewing tailored materials |
+| 14 | 2026-07-15 | Affirm | Senior Software Engineer, Backend (Continuous Delivery) | 4.7/5 | Evaluated | ✅ | [014](../reports/014-affirm-2026-07-15.md) | Apply now after reviewing tailored materials |
+| 15 | 2026-07-15 | Affirm | Senior Software Engineer, Backend (Infrastructure) | 4.7/5 | Evaluated | ✅ | [015](../reports/015-affirm-2026-07-15.md) | Apply now after reviewing tailored materials |

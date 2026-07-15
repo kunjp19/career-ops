@@ -103,6 +103,9 @@ automation:
   auto_prefill_forms: false
   never_submit_without_review: true
   preferred_keywords:
+    - "affirm"
+    - "remote-first"
+    - "remote first"
     - "senior software engineer"
     - "backend engineer"
     - "java engineer"
@@ -127,3 +130,8 @@ automation:
     - "commission only"
     - "desktop support"
     - "help desk"
+  preferred_companies:
+    - "Affirm"
+  company_preferences:
+    - "Prioritize Affirm roles when they are remote-first and backend/platform/data-adjacent."
+    - "Favor remote-first companies over remote-allowed companies when engineering fit is otherwise similar."

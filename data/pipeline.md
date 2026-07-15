@@ -9,6 +9,20 @@ Format examples:
 
 ## Pendientes
 
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7799631003 | Affirm | Senior Software Engineer, Backend (Lake Analytics Platform) 
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7636414003 | Affirm | Senior Software Engineer, Backend (Merchant & Partner Lifecycle)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7663434003 | Affirm | Senior Software Engineer, Fullstack (Consumer Engineering)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7686804003 | Affirm | Senior Software Engineer, Full Stack (Zero to One Labs)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7728511003 | Affirm | Senior Staff Software Engineer, Backend (Data and Storage Services)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7749755003 | Affirm | Software Engineer II, Backend (Capital Orchestration)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7766277003 | Affirm | Software Engineer II, Back-end (Card Mgmt & Transaction Processing)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7800444003 | Affirm | Software Engineer II, Backend (ML Training & Serving)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7764834003 | Affirm | Software Engineer II, Backend (Reliability Platform)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7727320003 | Affirm | Software Engineer II, Backend (Test Infra)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7719647003 | Affirm | Staff Software Engineer, Backend (Capacity Modeling)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7801694003 | Affirm | Staff Software Engineer, Backend (Lake Analytics Platform)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7749580003 | Affirm | Staff Software Engineer (Continuous Integration)
+
 - [ ] https://job-boards.greenhouse.io/planetscale/jobs/4280570009 | PlanetScale | Software Engineer - Neki Orchestration
 - [ ] https://job-boards.greenhouse.io/planetscale/jobs/4251150009 | PlanetScale | Software Engineer - PlanetScale Postgres
 - [ ] https://job-boards.greenhouse.io/planetscale/jobs/4009936009 | PlanetScale | Software Engineer - Sharded Postgres (Neki)
@@ -30,3 +44,6 @@ Format examples:
 - [x] #010 | https://job-boards.greenhouse.io/hightouch/jobs/6004706004 | Hightouch | Software Engineer, Native Delivery | 3.4/5 | PDF ❌
 - [x] #011 | https://job-boards.greenhouse.io/hightouch/jobs/5983863004 | Hightouch | Software Engineer, Streaming Systems | 3.4/5 | PDF ❌
 - [x] #012 | https://job-boards.greenhouse.io/planetscale/jobs/4107018009 | PlanetScale | Software Engineer - Insights | 3.8/5 | PDF ❌
+- [x] #013 | https://job-boards.greenhouse.io/affirm/jobs/7671388003 | Affirm | Senior CIAM Software Engineer | 4.6/5 | PDF ✅
+- [x] #014 | https://job-boards.greenhouse.io/affirm/jobs/7703207003 | Affirm | Senior Software Engineer, Backend (Continuous Delivery) | 4.7/5 | PDF ✅
+- [x] #015 | https://job-boards.greenhouse.io/affirm/jobs/7708921003 | Affirm | Senior Software Engineer, Backend (Infrastructure) | 4.7/5 | PDF ✅
